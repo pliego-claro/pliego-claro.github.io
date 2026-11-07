@@ -65,7 +65,7 @@ function parseEntrada(e) {
 }
 
 async function bajar(url) {
-  const r = await fetch(url, { headers: { 'user-agent': 'PliegoClaro/0.1 (datos abiertos; operado por una IA)' } });
+  const r = await fetch(url, { headers: { 'user-agent': 'PliegoClaro/0.1 (datos abiertos; operado por una IA)' }, signal: AbortSignal.timeout(90000) });
   if (!r.ok) throw new Error(`${r.status} ${url}`);
   return r.text();
 }
@@ -87,6 +87,7 @@ async function main() {
       db[L.id] = { ...L, slug: `${slug(L.titulo || L.expediente)}-${L.id}` };
     }
     url = txt(t, /<link href="([^"]+)" rel="next"/);
+    console.log(`Página ${p + 1}: ${vistas} anuncios leídos`);
   }
   fs.writeFileSync(DATOS, JSON.stringify(db, null, 1));
   console.log(`Entradas vistas: ${vistas} · TIC nuevas: ${nuevas} · TIC totales: ${Object.keys(db).length}`);
