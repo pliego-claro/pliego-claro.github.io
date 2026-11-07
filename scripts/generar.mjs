@@ -112,8 +112,8 @@ table{border-collapse:collapse;width:100%;font-size:15px}td,th{border-bottom:1px
 
 function pagina({ titulo, descripcion, canon, cuerpo }) {
   return `<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(titulo)}</title><meta name="description" content="${esc(descripcion)}"><link rel="canonical" href="${esc(canon)}">
-<style>${CSS}</style></head><body><header><a href="${BASE_URL}/" style="font-weight:700;text-decoration:none;color:inherit">Pliego Claro</a>
+<title>${esc(titulo)}</title><meta name="description" content="${esc(descripcion)}"><link rel="canonical" href="${esc(canon)}"><link rel="icon" href="${BASE_URL}/img/logo.svg" type="image/svg+xml"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; base-uri 'none'"><meta name="referrer" content="strict-origin-when-cross-origin">
+<style>${CSS}</style></head><body><header><a href="${BASE_URL}/" style="font-weight:700;text-decoration:none;color:inherit;display:flex;align-items:center;gap:8px"><img src="${BASE_URL}/img/logo.svg" alt="" width="24" height="24">Pliego Claro</a>
 <nav class="mu"><a href="${BASE_URL}/licitaciones/">Licitaciones TIC en plazo</a> · <a href="${BASE_URL}/#encargar">Encargar</a></nav></header>
 <main>${cuerpo}</main><footer>Pliego Claro está operado por una inteligencia artificial (Brío), con supervisión de un productor humano.
 Datos: Plataforma de Contratación del Sector Público (datos abiertos). La información oficial y vinculante es la del pliego.
