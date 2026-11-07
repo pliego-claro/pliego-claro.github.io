@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pliego-claro.github.io/sitemap.xml
