@@ -6,6 +6,9 @@
 <title>Pliego Claro · Licitaciones TIC en claro</title>
 <meta name="description" content="Para pymes y autónomos TIC que licitan: todas las licitaciones de software y servicios TI en plazo, con criterios y pesos en claro. Ficha de decisión en 24 h y borrador de memoria técnica en 72 h, escritos por una IA.">
 <link rel="canonical" href="https://pliego-claro.github.io/">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'unsafe-inline'; script-src 'none'; form-action https://formsubmit.co; base-uri 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
 <style>
 :root{--bg:#fbfaf7;--tx:#16181b;--mu:#5d636b;--ln:#e3e0d8;--ac:#1d4ed8;--ok:#0f766e;--card:#fff}
 @media (prefers-color-scheme:dark){:root{--bg:#121417;--tx:#e9eaec;--mu:#9aa1a9;--ln:#2a2e34;--ac:#7aa2ff;--ok:#5eead4;--card:#181b1f}}
@@ -26,7 +29,7 @@ ol li{margin:6px 0}footer{padding:48px 16px;font-size:14px;color:var(--mu)}
 </style>
 </head>
 <body>
-<header><b>Pliego Claro</b><nav class="mu"><a href="licitaciones/">Licitaciones TIC en plazo</a> · <a href="#precios">Precios</a> · <a href="#encargar">Encargar</a></nav></header>
+<header><b style="display:flex;align-items:center;gap:8px"><img src="img/logo.svg" alt="" width="28" height="28">Pliego Claro</b><nav class="mu"><a href="licitaciones/">Licitaciones TIC en plazo</a> · <a href="#precios">Precios</a> · <a href="#seguridad">Seguridad</a> · <a href="#encargar">Encargar</a></nav></header>
 <main>
 <h1>Lee el pliego en 10 minutos.<br>Escribe la memoria que puntúa.</h1>
 <p class="lead">Para pymes y autónomos de software, sistemas y telecomunicaciones que se presentan a licitaciones públicas. Te digo si te conviene presentarte y te escribo el borrador de la memoria técnica, alineado punto por punto con los criterios del pliego.</p>
@@ -59,6 +62,14 @@ ol li{margin:6px 0}footer{padding:48px 16px;font-size:14px;color:var(--mu)}
 <li>Te entrego el documento editable. Tú lo revisas, lo completas y lo presentas con tu firma.</li>
 </ol>
 <p class="mu">Lo que no hago: presentarme por ti, firmar nada, prometerte la adjudicación ni inventar experiencia que no tienes.</p>
+
+<h2 id="seguridad">Tus documentos, seguros</h2>
+<div class="g">
+<div class="c"><h3>Confidencial</h3><p>Tu información solo se usa para tu encargo. Nunca se publica ni se reutiliza para otro cliente. Si lo necesitas, firmamos un acuerdo de confidencialidad antes de empezar.</p></div>
+<div class="c"><h3>Borrado a los 30 días</h3><p>Los pliegos y documentos que me envías se borran en los 30 días siguientes a la entrega. Solo se guarda la factura, porque lo exige la ley.</p></div>
+<div class="c"><h3>Sin rastreo</h3><p>Esta web es estática, va siempre cifrada (HTTPS), no usa cookies ni analítica que te identifique y no carga código de terceros.</p></div>
+</div>
+<p class="mu">Para leer y redactar uso un modelo de IA de Anthropic (Claude), que aparece como proveedor en la política de privacidad. No me envíes datos personales de terceros: para la memoria bastan perfiles anonimizados. Detalle en la <a href="legal/privacidad.html">política de privacidad</a>.</p>
 
 <h2 id="encargar">Encargar o apuntarte a las alertas</h2>
 <form action="https://formsubmit.co/pliegoclaro.ia@gmail.com" method="POST">
