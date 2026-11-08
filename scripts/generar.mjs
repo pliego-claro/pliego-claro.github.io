@@ -96,7 +96,19 @@ async function main() {
 
 const hoy = () => new Date().toISOString().slice(0, 10);
 const diasHasta = f => f ? Math.ceil((new Date(f + 'T23:59:59') - new Date()) / 864e5) : null;
-const pesoJuicio = L => L.criterios.filter(c => c.tipo === 'SUBJ').reduce((a, c) => a + c.peso, 0);
+// Puntos de juicio de valor sobre 100. Con varios lotes, los datos abiertos repiten los criterios
+// de cada lote: se calcula por lote (grupos "1.x", "2.x"…) o en proporción al total.
+const esMultilote = L => L.criterios.reduce((a, c) => a + c.peso, 0) > 100.5;
+const pesoJuicio = L => {
+  const subj = L.criterios.filter(c => c.tipo === 'SUBJ');
+  const suma = subj.reduce((a, c) => a + c.peso, 0);
+  const total = L.criterios.reduce((a, c) => a + c.peso, 0);
+  if (total <= 100.5) return suma;
+  const grupos = {};
+  for (const c of subj) { const m = (c.desc || '').match(/^\s*(\d+)\s*\./); if (m) grupos[m[1]] = (grupos[m[1]] || 0) + c.peso; }
+  if (Object.keys(grupos).length >= 2) return Math.max(...Object.values(grupos));
+  return Math.round(suma * 100 / total);
+};
 
 const CSS = `:root{--bg:#fbfaf7;--tx:#16181b;--mu:#5d636b;--ln:#e3e0d8;--ac:#1d4ed8;--ok:#0f766e;--wa:#b45309}
 @media (prefers-color-scheme:dark){:root{--bg:#121417;--tx:#e9eaec;--mu:#9aa1a9;--ln:#2a2e34;--ac:#7aa2ff;--ok:#5eead4;--wa:#fbbf24}}
@@ -125,7 +137,7 @@ function ficha(L) {
   const crit = L.criterios.length ? `<table><tr><th>Criterio</th><th>Tipo</th><th>Peso</th></tr>${L.criterios.map(c => `<tr><td>${esc(c.desc)}</td><td>${c.tipo === 'SUBJ' ? 'Juicio de valor (memoria)' : c.tipo === 'OBJ' ? 'Automático (fórmula)' : esc(c.tipo)}</td><td>${c.peso || '—'}</td></tr>`).join('')}</table>`
     : '<p class="mu">El anuncio no detalla los criterios en los datos abiertos: están en el pliego.</p>';
   const lectura = j > 0
-    ? `<p><b>${j} puntos</b> de esta licitación se deciden por <b>juicio de valor</b>: es decir, por cómo esté escrita tu memoria técnica. El precio no lo es todo aquí.</p>`
+    ? `<p><b>${j} de cada 100 puntos</b>${esMultilote(L) ? ' (por lote)' : ''} se deciden por <b>juicio de valor</b>: es decir, por cómo esté escrita tu memoria técnica. El precio no lo es todo aquí.</p>`
     : '<p>Según los datos abiertos, esta licitación se decide sobre todo por criterios automáticos (precio y fórmulas). Revisa el pliego por si hay apartados técnicos.</p>';
   const cuerpo = `<p class="mu">${esc(L.expediente)} · ${esc(L.organo)}</p><h1>${esc(L.titulo)}</h1>
 <p>${L.tipo ? `<span class="tag">${esc(L.tipo)}</span>` : ''}${L.procedimiento ? `<span class="tag">${esc(L.procedimiento)}</span>` : ''}${L.cpvs.filter(Boolean).slice(0, 4).map(c => `<span class="tag">CPV ${esc(c)}</span>`).join('')}</p>
@@ -142,7 +154,7 @@ function ficha(L) {
 <h2>Documentos oficiales</h2><ul class="lista">${L.docs.map(x => `<li><a href="${esc(x.url)}" rel="nofollow">${esc(x.nombre || 'Documento')}</a></li>`).join('') || '<li class="mu">Ver en la Plataforma</li>'}
 <li><a href="${esc(L.enlace)}" rel="nofollow">Anuncio en la Plataforma de Contratación del Sector Público</a></li></ul>
 <div class="cta" id="encargar"><b>¿Te presentas?</b><p>Te leo el pliego entero y te devuelvo en 24 h una ficha de decisión (requisitos de solvencia, criterios, riesgos y si te conviene), o en 72 h un borrador de memoria técnica alineado con los criterios. Lo escribe una IA y lo revisas y firmas tú.</p>
-<a class="btn" href="${BASE_URL}/#encargar">Ver precios y encargar</a></div>
+<a class="btn" href="${BASE_URL}/#encargar">Ver precios y encargar</a> &nbsp; <a href="${BASE_URL}/ejemplo-ficha.html">Ver una ficha de ejemplo</a></div>
 <p class="mu">Ficha generada automáticamente el ${hoy()} a partir de datos abiertos. Puede contener errores: manda el pliego.</p>`;
   return pagina({ titulo: `${L.titulo} · ${L.organo} · Pliego Claro`.slice(0, 160), descripcion: `Licitación TIC ${L.expediente}: ${eur(L.importe)}, fin de plazo ${L.plazoFecha || 'ver pliego'}. Criterios, pesos y documentos, en claro.`, canon: `${BASE_URL}/licitaciones/${L.slug}.html`, cuerpo });
 }
@@ -161,7 +173,7 @@ function publicar(db) {
 <div class="ia">Esta lista la genera y la mantiene una IA a partir de los datos abiertos de la Plataforma de Contratación del Sector Público.</div>
 <table><tr><th>Licitación</th><th>Importe</th><th>Fin plazo</th><th>Juicio</th></tr>${filas}</table>`
   }));
-  const urls = [`${BASE_URL}/`, `${BASE_URL}/licitaciones/`, ...enPlazo.map(L => `${BASE_URL}/licitaciones/${L.slug}.html`)];
+  const urls = [`${BASE_URL}/`, `${BASE_URL}/ejemplo-ficha.html`, `${BASE_URL}/licitaciones/`, ...enPlazo.map(L => `${BASE_URL}/licitaciones/${L.slug}.html`)];
   fs.writeFileSync(path.join(SITIO, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map(u => `<url><loc>${esc(u)}</loc><lastmod>${hoy()}</lastmod></url>`).join('')}</urlset>\n`);
   // Borra fichas de licitaciones que ya no están en plazo
   const vivas = new Set(enPlazo.map(L => L.slug + '.html').concat('index.html'));
