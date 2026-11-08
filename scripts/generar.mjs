@@ -166,6 +166,20 @@ function publicar(db) {
   // Borra fichas de licitaciones que ya no están en plazo
   const vivas = new Set(enPlazo.map(L => L.slug + '.html').concat('index.html'));
   for (const f of fs.readdirSync(dir)) if (!vivas.has(f)) fs.unlinkSync(path.join(dir, f));
+
+  // Cifras de la portada, recalculadas cada día
+  const conJ = enPlazo.filter(L => pesoJuicio(L) > 0);
+  const med = a => { const v = a.slice().sort((x, y) => x - y); return v.length ? v[Math.floor(v.length / 2)] : 0; };
+  const idx = path.join(SITIO, 'index.html');
+  if (fs.existsSync(idx) && conJ.length) {
+    const fecha = new Date().toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' });
+    const rep = (h, k, v) => h.replace(new RegExp(`<!--${k}-->[^<]*<!--/${k}-->`), `<!--${k}-->${v}<!--/${k}-->`);
+    let h = fs.readFileSync(idx, 'utf8');
+    h = rep(h, 'N', enPlazo.length); h = rep(h, 'F', fecha);
+    h = rep(h, 'J', med(conJ.map(pesoJuicio)));
+    h = rep(h, 'I', Math.round(med(conJ.map(L => L.importe || 0))).toLocaleString('es-ES'));
+    fs.writeFileSync(idx, h);
+  }
   console.log(`Publicadas ${enPlazo.length} fichas en plazo.`);
 }
 
