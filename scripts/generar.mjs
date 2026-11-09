@@ -159,6 +159,58 @@ function ficha(L) {
   return pagina({ titulo: `${L.titulo} · ${L.organo} · Pliego Claro`.slice(0, 160), descripcion: `Licitación TIC ${L.expediente}: ${eur(L.importe)}, fin de plazo ${L.plazoFecha || 'ver pliego'}. Criterios, pesos y documentos, en claro.`, canon: `${BASE_URL}/licitaciones/${L.slug}.html`, cuerpo });
 }
 
+
+// ---- Páginas por tipo de contrato y por comunidad autónoma (se activan con CATEGORIAS_DIR) ----
+const CCAA = {
+  'Andalucía': ['Almería','Cádiz','Córdoba','Granada','Huelva','Jaén','Málaga','Sevilla','Andalucía'],
+  'Aragón': ['Huesca','Teruel','Zaragoza','Aragón'],
+  'Asturias': ['Asturias','Principado de Asturias'],
+  'Illes Balears': ['Illes Balears','Mallorca','Menorca','Eivissa i Formentera','Ibiza','Baleares'],
+  'Canarias': ['Canarias','Las Palmas','Santa Cruz de Tenerife','Gran Canaria','Tenerife'],
+  'Cantabria': ['Cantabria'],
+  'Castilla y León': ['Ávila','Burgos','León','Palencia','Salamanca','Segovia','Soria','Valladolid','Zamora','Castilla y León'],
+  'Castilla-La Mancha': ['Albacete','Ciudad Real','Cuenca','Guadalajara','Toledo','Castilla-La Mancha'],
+  'Cataluña': ['Barcelona','Girona','Lleida','Tarragona','Cataluña','Catalunya'],
+  'Comunitat Valenciana': ['Valencia/València','Alicante/Alacant','Castellón/Castelló','Valencia','Alicante','Castellón','Comunitat Valenciana','Comunidad Valenciana'],
+  'Extremadura': ['Badajoz','Cáceres','Extremadura'],
+  'Galicia': ['A Coruña','Lugo','Ourense','Pontevedra','Galicia'],
+  'Comunidad de Madrid': ['Madrid','Comunidad de Madrid'],
+  'Región de Murcia': ['Murcia','Región de Murcia'],
+  'Navarra': ['Navarra','Comunidad Foral de Navarra'],
+  'País Vasco': ['Araba/Álava','Álava','Bizkaia','Gipuzkoa','País Vasco','Euskadi'],
+  'La Rioja': ['La Rioja'],
+  'Ceuta y Melilla': ['Ceuta','Melilla'],
+};
+const ccaaDe = L => { for (const [k, v] of Object.entries(CCAA)) if (v.includes(L.provincia)) return k; return 'Toda España o sin especificar'; };
+const TIPOS = [
+  { slug: 'software-y-desarrollo', nombre: 'Software, desarrollo y servicios TI', re: /^72/ },
+  { slug: 'licencias-de-software', nombre: 'Licencias y paquetes de software', re: /^48/ },
+  { slug: 'equipos-informaticos', nombre: 'Equipos informáticos', re: /^302/ },
+  { slug: 'redes-y-telecomunicaciones', nombre: 'Redes y telecomunicaciones', re: /^(3242|642)/ },
+  { slug: 'mantenimiento-informatico', nombre: 'Mantenimiento y reparación de equipos TI', re: /^(5031|5032)/ },
+];
+function tabla(lista) {
+  return `<table><tr><th>Licitación</th><th>Importe</th><th>Fin plazo</th><th>Juicio</th></tr>${lista.map(L => `<tr><td><a href="${BASE_URL}/licitaciones/${L.slug}.html">${esc(L.titulo)}</a><div class="mu">${esc(L.organo)}</div></td><td>${eur(L.importe)}</td><td>${esc(L.plazoFecha || '—')}</td><td>${pesoJuicio(L) || '—'}</td></tr>`).join('')}</table>`;
+}
+function publicarCategorias(enPlazo, dir) {
+  const out = []; fs.mkdirSync(path.join(dir, 'tipo'), { recursive: true }); fs.mkdirSync(path.join(dir, 'comunidad'), { recursive: true });
+  const nav = `<p class="mu">Ver por tipo: ${TIPOS.map(t => `<a href="${BASE_URL}/licitaciones/tipo/${t.slug}.html">${t.nombre}</a>`).join(' · ')}</p>`;
+  for (const t of TIPOS) {
+    const lista = enPlazo.filter(L => t.re.test((L.cpvs.find(Boolean) || '')));
+    const html = pagina({ titulo: `Licitaciones de ${t.nombre.toLowerCase()} en plazo · Pliego Claro`, descripcion: `${lista.length} licitaciones públicas de ${t.nombre.toLowerCase()} en plazo en España, con criterios y puntos de la memoria técnica. Actualizado cada día.`, canon: `${BASE_URL}/licitaciones/tipo/${t.slug}.html`,
+      cuerpo: `<h1>Licitaciones de ${esc(t.nombre.toLowerCase())} en plazo</h1><p class="mu">${lista.length} licitaciones abiertas. Actualizado el ${hoy()}. «Juicio» = puntos (sobre 100) que dependen de la memoria técnica.</p><div class="ia">Lista generada por una IA a partir de los datos abiertos de la Plataforma de Contratación del Sector Público.</div>${nav}${tabla(lista)}` });
+    fs.writeFileSync(path.join(dir, 'tipo', t.slug + '.html'), html); out.push(`${BASE_URL}/licitaciones/tipo/${t.slug}.html`);
+  }
+  const grupos = {}; for (const L of enPlazo) (grupos[ccaaDe(L)] ||= []).push(L);
+  const navC = `<p class="mu">Ver por comunidad: ${Object.keys(grupos).sort().map(k => `<a href="${BASE_URL}/licitaciones/comunidad/${slug(k)}.html">${esc(k)}</a>`).join(' · ')}</p>`;
+  for (const [k, lista] of Object.entries(grupos)) {
+    const html = pagina({ titulo: `Licitaciones TIC en ${k} en plazo · Pliego Claro`, descripcion: `${lista.length} licitaciones públicas de software, servicios TI y telecomunicaciones en ${k}, con criterios y puntos de la memoria técnica. Actualizado cada día.`, canon: `${BASE_URL}/licitaciones/comunidad/${slug(k)}.html`,
+      cuerpo: `<h1>Licitaciones TIC en ${esc(k)}</h1><p class="mu">${lista.length} licitaciones abiertas de software, servicios TI, equipos y telecomunicaciones. Actualizado el ${hoy()}.</p><div class="ia">Lista generada por una IA a partir de los datos abiertos de la Plataforma de Contratación del Sector Público.</div>${navC}${tabla(lista)}` });
+    fs.writeFileSync(path.join(dir, 'comunidad', slug(k) + '.html'), html); out.push(`${BASE_URL}/licitaciones/comunidad/${slug(k)}.html`);
+  }
+  return out;
+}
+
 function publicar(db) {
   const dir = path.join(SITIO, 'licitaciones');
   fs.mkdirSync(dir, { recursive: true });
@@ -170,14 +222,15 @@ function publicar(db) {
   fs.writeFileSync(path.join(dir, 'index.html'), pagina({
     titulo: 'Licitaciones TIC en plazo hoy · Pliego Claro', descripcion: 'Todas las licitaciones públicas de software, servicios TI y equipos informáticos en plazo, con los criterios y los pesos en claro. Actualizado cada día.', canon: `${BASE_URL}/licitaciones/`,
     cuerpo: `<h1>Licitaciones TIC en plazo</h1><p class="mu">${enPlazo.length} licitaciones abiertas de software, servicios TI, equipos y telecomunicaciones. Actualizado el ${hoy()}. «Juicio» = puntos que dependen de la memoria técnica.</p>
-<div class="ia">Esta lista la genera y la mantiene una IA a partir de los datos abiertos de la Plataforma de Contratación del Sector Público.</div>
+<div class="ia">Esta lista la genera y la mantiene una IA a partir de los datos abiertos de la Plataforma de Contratación del Sector Público.</div>${process.env.CATEGORIAS_DIR ? `<p class="mu">Por tipo: ${TIPOS.map(t => `<a href="${BASE_URL}/licitaciones/tipo/${t.slug}.html">${t.nombre}</a>`).join(' · ')}<br>Por comunidad: ${Object.keys(CCAA).concat('Toda España o sin especificar').map(k => `<a href="${BASE_URL}/licitaciones/comunidad/${slug(k)}.html">${k}</a>`).join(' · ')}</p>` : ''}
 <table><tr><th>Licitación</th><th>Importe</th><th>Fin plazo</th><th>Juicio</th></tr>${filas}</table>`
   }));
-  const urls = [`${BASE_URL}/`, `${BASE_URL}/ejemplo-ficha.html`, `${BASE_URL}/licitaciones/`, ...enPlazo.map(L => `${BASE_URL}/licitaciones/${L.slug}.html`)];
+  const extra = process.env.CATEGORIAS_DIR ? publicarCategorias(enPlazo, process.env.CATEGORIAS_DIR) : [];
+  const urls = [`${BASE_URL}/`, `${BASE_URL}/ejemplo-ficha.html`, `${BASE_URL}/licitaciones/`, ...(process.env.CATEGORIAS_EN_SITEMAP ? extra : []), ...enPlazo.map(L => `${BASE_URL}/licitaciones/${L.slug}.html`)];
   fs.writeFileSync(path.join(SITIO, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.map(u => `<url><loc>${esc(u)}</loc><lastmod>${hoy()}</lastmod></url>`).join('')}</urlset>\n`);
   // Borra fichas de licitaciones que ya no están en plazo
   const vivas = new Set(enPlazo.map(L => L.slug + '.html').concat('index.html'));
-  for (const f of fs.readdirSync(dir)) if (!vivas.has(f)) fs.unlinkSync(path.join(dir, f));
+  for (const f of fs.readdirSync(dir)) if (!vivas.has(f) && fs.statSync(path.join(dir, f)).isFile()) fs.unlinkSync(path.join(dir, f));
 
   // Cifras de la portada, recalculadas cada día
   const conJ = enPlazo.filter(L => pesoJuicio(L) > 0);
