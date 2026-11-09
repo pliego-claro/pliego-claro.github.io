@@ -26,6 +26,12 @@ jobs:
         run: |
           if [ -f datos/licitaciones.json ]; then P=12; else P=60; fi
           node scripts/generar.mjs $P
+      - name: Publicar en Telegram (lote 4)
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT: ${{ vars.TELEGRAM_CHAT }}
+        run: node scripts/telegram.mjs
       - name: Guardar datos
         run: |
           git config user.name "brio-ia"
