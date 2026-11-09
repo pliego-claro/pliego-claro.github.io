@@ -28804,6 +28804,66 @@
   ],
   "slug": "contratacion-de-la-adquisicion-instalacion-y-mantenimiento-de-equipos--19653529"
  },
+ "19653542": {
+  "id": "19653542",
+  "expediente": "N202600269",
+  "titulo": "Servicio de Oficina Técnica y soporte a la plataforma IA de MC MUTUAL",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=f52sgYQBDGNrhBlEHQFSKA%3D%3D",
+  "actualizado": "2026-11-08T07:11:33.128+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "72200000",
+   ""
+  ],
+  "organo": "Dirección General de la Mutual Midat Cyclops, Mutua Colaboradora con la Seguridad Social, nº 1",
+  "ciudad": "Barcelona",
+  "provincia": "Barcelona",
+  "importe": 184670,
+  "valorEstimado": 369340,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-06-10",
+  "plazoHora": "23:59:00",
+  "duracion": "1 años",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Precio",
+    "peso": 45
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Oferta técnica evaluable sujeta a juicio de valor",
+    "peso": 50
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Oferta técnica evaluable de forma automática",
+    "peso": 5
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "Pliego de condiciones particulares.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qOgDabXAj9cxK9J2zHGD3kl20S70OwJn24GJSDPVsQJneU3XmH5B0F1gVOm6Qqx59YB2vIrAglNb72Dfi%2B9s9qaJ9UcmFUUBoQjxk0LxFH6HAj0WEJrB5sP7amrh2jBD"
+   },
+   {
+    "nombre": "Pliego de prescripciones tecnicas.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UsIjNinYKdQ9pI2rgZfBtlKL/cLMbn03%2BVxKWbwQh2rLXMJ%2B8F8Hk0CEKObNxOTtoDI%2BeSNARrayNARHv4Vwy7axOWpxcE/jcxSkKXJowD8C1/zDIE0Kw/PWNnLS0Z0z"
+   },
+   {
+    "nombre": "Formularios PCAP.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=D78o%2BEYuI/aGzuguXeYaE2RK9lqFj/xg2qr5DBi%2B%2B0KNA3sQVDsGbiE4VULr7lNZdRdXyBe6lnjyj07uIK%2BjHFr3ieS1yfau5s%2BhqRDErIj6CYyL7SIrUOBFfNf52ZqA"
+   },
+   {
+    "nombre": "Memoria economica.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=J8D7qk5zynL%2BvMCkO0E/fzzb6pnKV1jwxdeJLw8j5ZY0emXeiSTIJFL9OOqbxOkvRNfUFfukW6rcfhTH9G/aQXLD%2BnaeUmhDGBJ3Sz0nrhL6CYyL7SIrUOBFfNf52ZqA"
+   }
+  ],
+  "slug": "servicio-de-oficina-tecnica-y-soporte-a-la-plataforma-ia-de-mc-mutual-19653542"
+ },
  "19656054": {
   "id": "19656054",
   "expediente": "S-01978-2026",
@@ -31877,6 +31937,82 @@
    }
   ],
   "slug": "servicios-especializados-para-la-transformacion-digital-de-la-oferta-p-19773074"
+ },
+ "19786085": {
+  "id": "19786085",
+  "expediente": "22/2026",
+  "titulo": "Contrato de infraestructura física (hardware) y de los servicios de software necesarios para la implantación de un sistema de soporte a la decisión clínica y cuadro de mandos corporativo en el marco del proyecto de investigación PIP-0013-2025.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yxEF7d%2F0WVUXhk1FZxEyvw%3D%3D",
+  "actualizado": "2026-11-08T13:42:06.695+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "72200000",
+   "",
+   "48900000",
+   "",
+   "72200000",
+   "",
+   "48900000",
+   "",
+   "72200000",
+   "",
+   "48900000",
+   ""
+  ],
+  "organo": "Director Gerente de FISEVI",
+  "ciudad": "Sevilla",
+  "provincia": "Sevilla",
+  "importe": 294320,
+  "valorEstimado": 294320,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-06-29",
+  "plazoHora": "23:59:00",
+  "duracion": "2 años",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Valor técnico",
+    "peso": 20
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Ampliación del periodo de garantía y soporte técnico",
+    "peso": 10
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Bolsa de horas de profesionales técnicos y de consultoría",
+    "peso": 10
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Memoria técnica",
+    "peso": 30
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Oferta económica",
+    "peso": 50
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "2026 22 SOFTWARE HARDWARE PIP 0013 2025 PCAP.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qsU0pM5eK6teyqmCH0vSqvOpy%2BSor0vYnBjkHIcZ09HMmZDaKOdzMh6FdLeetsdUChCgeLzzmcdvWtaI%2BkKo6LcPWJNxxD0QO87EoL/nmmuB0nvVKRzfe4rpHcnlPhSZ"
+   },
+   {
+    "nombre": "2026 22 SOFTWARE HARDWARE PIP 0013 2025 PPT.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cnGXdrzurXjHlk44Sqs0OlBbN7x2xLq1FpBZqDIrdkRGDnez%2BBeOYj4PDBk6sl3NNu4SqR7s2ukU%2BW8tSDPL10dTdKPUeV9ysTwjpySiZ1VJOVDbGCDM%2BMigrvuVS7Rv"
+   },
+   {
+    "nombre": "DEUC.xml",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=shLMNuM3Rocm8oKlpRG7SPERZTAqUgSrwQywsq1%2BSIrJdRBAbCp57zIDCJezwcpS8bNX5wh%2BQPxoCfDGNxttsz95yRw7bZ1LPlVVyrJ5DfiCx2e6p7hqtlp2aFupgHMr"
+   }
+  ],
+  "slug": "contrato-de-infraestructura-fisica-hardware-y-de-los-servicios-de-soft-19786085"
  },
  "19791404": {
   "id": "19791404",
@@ -36179,6 +36315,53 @@
    }
   ],
   "slug": "gestion-integral-de-impresion-para-el-ayuntamiento-de-ponferrada-19862160"
+ },
+ "19871819": {
+  "id": "19871819",
+  "expediente": "02/27",
+  "titulo": "Servicios de desarrollo evolutivo y soporte de la Plataforma de Rendición Telemática Automática RETAN.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WuEAysr8bgYIYE3ZiZ%2BxmQ%3D%3D",
+  "actualizado": "2026-11-08T09:56:43.465+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "72000000",
+   ""
+  ],
+  "organo": "Presidencia del Tribunal de Cuentas",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 462809.92,
+  "valorEstimado": 1110743.8,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-07-14",
+  "plazoHora": "14:00:00",
+  "duracion": "2 años",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "SUBJ",
+    "desc": "Calidad técnica",
+    "peso": 49
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Precio",
+    "peso": 51
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "PCAP firmado.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SbacyD1Lg8xvcPhIComPcLX2iTZRANY2HMrfnBTRrfNr1kvKDZ7Nu0htahngPiRdzoaL%2BXUbEpTaI3FMsotFkiVEHb4haITDjZcHIHe6F1z3GVhXrFFqN7yFncy7YfRK"
+   },
+   {
+    "nombre": "PPT firmado.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IaleFHlQc96jsUC%2Ban2oJAkBmyeU7MHNFT3d9CIZYOXSNcPB48hhGcNQdWx/V0BYy7JqbyN0SuG9VJd8iLbOlyoWFVa45L019MFqGvUdaM0ZyAJWGsSt0OzTSTyw9JAs"
+   }
+  ],
+  "slug": "servicios-de-desarrollo-evolutivo-y-soporte-de-la-plataforma-de-rendic-19871819"
  },
  "19871830": {
   "id": "19871830",
@@ -42495,8 +42678,8 @@
   "expediente": "2026/049.SER.ABR.MC",
   "titulo": "Servicios de telecomunicaciones, incluyendo los de telefonía fija, telefonía móvil corporativa, conectividad de datos, comunicaciones M2M, suministro y gestión de terminales móviles y plataformas de gestión de dispositivos móviles.",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AyRViSnBzg9SYrkJkLlFdw%3D%3D",
-  "actualizado": "2026-11-06T09:21:25.822+01:00",
-  "estado": "ADJ",
+  "actualizado": "2026-11-08T09:27:33.056+01:00",
+  "estado": "RES",
   "cpvs": [
    "64210000",
    ""
@@ -42516,18 +42699,13 @@
   "criterios": [
    {
     "tipo": "SUBJ",
-    "desc": "Plan Técnico de implantación",
-    "peso": 9
-   },
-   {
-    "tipo": "OBJ",
-    "desc": "Criterio medioambiental",
-    "peso": 5
+    "desc": "Servicio On Site de gestión del cambio",
+    "peso": 7.5
    },
    {
     "tipo": "SUBJ",
-    "desc": "Servicio On Site de gestión del cambio",
-    "peso": 7.5
+    "desc": "Plan Técnico de implantación",
+    "peso": 9
    },
    {
     "tipo": "OBJ",
@@ -42538,6 +42716,11 @@
     "tipo": "OBJ",
     "desc": "Parte variable",
     "peso": 13
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Criterio medioambiental",
+    "peso": 5
    }
   ],
   "docs": [
@@ -50862,6 +51045,73 @@
   ],
   "slug": "suministro-y-servicios-de-evolucion-e-implementacion-de-los-sistemas-p-20078141"
  },
+ "20078165": {
+  "id": "20078165",
+  "expediente": "A2026/003628",
+  "titulo": "El objeto del contrato es establecer las condiciones que han de regir en el procedimiento abierto para la contratación de un servicio de Centro Atención a Usuarios de la Gerencia de Servicios Sociales.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Vl384pFfGrPLIx6q1oPaMg%3D%3D",
+  "actualizado": "2026-11-08T11:41:35.680+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "72100000",
+   ""
+  ],
+  "organo": "Gerencia de Servicios Sociales de la Junta de Castilla y León",
+  "ciudad": "Valladolid",
+  "provincia": "Castilla y León",
+  "importe": 913605.22,
+  "valorEstimado": 1827210.44,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-08-26",
+  "plazoHora": "19:00:00",
+  "duracion": "24 meses",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "SUBJ",
+    "desc": "Calidad técnica de la oferta",
+    "peso": 40
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Certificación CMMI SVC Nivel 5",
+    "peso": 5
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Oferta económica",
+    "peso": 28
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Certificación ENS Nivel Alto",
+    "peso": 5
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Atención del CAU 24*7",
+    "peso": 15
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Mejora cualificación técnica del equipo adscrito al contrato.",
+    "peso": 7
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "Pliego de clausulas administrativas particulares - PCAP v002.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=L4CuhMXdnH6w%2Bp14z2%2BHHZfyYhmnS31OsTxNaW44qeWedTwftmoRUkmYDoQlbp58XlTL5xMgppqJd69ByrsU5u%2BmMWNku%2BqCS/6WH2SJXA545ClyWkoJ44mKM70IFcOu"
+   },
+   {
+    "nombre": "Pliego prescripciones tecnicas - PPT v001.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=v7%2BW9r76lVtgFWj2nui%2BjJaabjkusjGC%2Bzw3UrJ3FJz29NZ245LfBbmFqfF1zQuwIIN020zmHt0WmodZSnMqRiLLUox1BVC596CiaEa3B9Rt/o8fNevwsujgRzaBbugn"
+   }
+  ],
+  "slug": "el-objeto-del-contrato-es-establecer-las-condiciones-que-han-de-regir--20078165"
+ },
  "20092211": {
   "id": "20092211",
   "expediente": "PIC2026_33808",
@@ -51065,6 +51315,83 @@
    }
   ],
   "slug": "acuerdo-marco-para-seleccion-de-proveedores-de-servicios-de-comunicaci-20092218"
+ },
+ "20092238": {
+  "id": "20092238",
+  "expediente": "2.2.17/26",
+  "titulo": "Suministro de reposición de ordenadores para el Gobierno de Cantabria.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=p7vQjlWRsBucTfjQf3USOg%3D%3D",
+  "actualizado": "2026-11-08T09:26:41.822+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "30213000",
+   "",
+   "30213100",
+   "",
+   "30213300",
+   "",
+   "30237000",
+   ""
+  ],
+  "organo": "Consejería de Presidencia, Justicia, Seguridad y Simplificación Administrativa de la Comunidad Autónoma de Cantabria",
+  "ciudad": "Santander",
+  "provincia": "Cantabria",
+  "importe": 483402,
+  "valorEstimado": 483402,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-08-03",
+  "plazoHora": "13:00:00",
+  "duracion": "2 meses",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "M.2 AMPLIACIÓN PERIODO DE GARANTÍA",
+    "peso": 10
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "M.1 PRECIO",
+    "peso": 90
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "017 PCAP.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/Bh0vBsrm%2BX6Veml%2BnDnS1%2BTcuwhEyHWDkUK%2BWFL5qli9/GLJ/dHyPvAR7jzOesvRFIk68FXf1Cg0sut%2Bd44QHVAtHFbuNraRNCBP7xCqKLfdyQgZAdTm3EfcUAC7CJ6"
+   },
+   {
+    "nombre": "017 PPT.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=JnIHsfIzN2Y6RVO%2BNoD9klR1mqNl1PGHk42va6SyfSttB/jT7tf6VeK4hYd9aQjjBoltaQqLxuTSDfXxQQ8COMwmeeYHaOFA3UFPi1%2BNPV97QB3HKyQaFUExmUVQCerk"
+   },
+   {
+    "nombre": "ANEXO I A y B.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YJTIfn8h8RvfIwJZT%2BjRFF44gjarpCAU18jVpE80Q2RHOlTL8PoQa6UbeCrNvdKSc0I8ZcEa%2BJk7O2//lMNYlj9niEBQUoY9535R6Ps3BarVTD3T98KC0nSgQFM0q%2B5s"
+   },
+   {
+    "nombre": "ANEXO III.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=thg7303YBwHU%2BTQx%2BqdFHy6mlzfxIRecHomUZ38XePN/yeQzGE5Xvxb0sNLu2CYSssph0QSAcg4zwCvqo6iBXHlflu/9tPiS2n/3ImKd%2B0j6CYyL7SIrUOBFfNf52ZqA"
+   },
+   {
+    "nombre": "ANEXO IV.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TQ7p9UBa1cOlDlAWV4kVxg7FU2OoEmgAvNBw9Pzon280WjIwOTmClLz3lOCsKxEcFVzXexyAZwdKhQlb%2BU4/64rVpFs71YhN3zAZBD3qklOB0nvVKRzfe4rpHcnlPhSZ"
+   },
+   {
+    "nombre": "PROCEDIMIENTO DEPOSITO DE AVALES solo adjudicatario.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=my3EF4L1whWtnJJGDeQgEuqXKRbVkge1A0u6vH%2B5OEsdsh6a5na3%2BXpp2rGt/RpPHlHZQKaNxdzvp3IWkH5vSkeu4nLZGNO9hYgcx%2BSJQwsC1/zDIE0Kw/PWNnLS0Z0z"
+   },
+   {
+    "nombre": "GUIA DE LICITACION ELECTRONICA 2026.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=i3tqmlzZc/nNCxAuBS23r2ybJit56gInuCUBYhrHgYqgNrnSOxI9On7IDdOYgaGkwa2OXvV8RFjL%2B8pr0cQ4AUgbzLlpeB9GHA8J3zTCQ6zDdQD9RyhUmzT4jZ2In4zL"
+   },
+   {
+    "nombre": "ANEXO II DEUC.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PWf6wVMZgQtTTDiCBFCKFwZCfH14JlFILd5NCI6DeE3lVgYTlSEarxPN/EI2W07rLySkffMNW%2BwIWixIlbA956SV07m7giUuioKLKITsasyB0nvVKRzfe4rpHcnlPhSZ"
+   }
+  ],
+  "slug": "suministro-de-reposicion-de-ordenadores-para-el-gobierno-de-cantabria-20092238"
  },
  "20093302": {
   "id": "20093302",
@@ -60919,8 +61246,8 @@
   "expediente": "2026/034969",
   "titulo": "Suministro, implantación, mantenimiento y soporte técnico de un sistema de información en modo Saas para el mantenimiento asistido por ordenador (GMAO) en los edificios administrativos de la Junta de Comunidades de Castilla-La Mancha.",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=N7szNiKYCl%2BcTfjQf3USOg%3D%3D",
-  "actualizado": "2026-11-06T09:00:00.000+01:00",
-  "estado": "PRE",
+  "actualizado": "2026-11-08T10:26:37.538+01:00",
+  "estado": "PUB",
   "cpvs": [
    "48000000",
    "",
@@ -60934,12 +61261,43 @@
   "valorEstimado": 460700,
   "tipo": "Suministros",
   "procedimiento": "Abierto",
-  "plazoFecha": null,
-  "plazoHora": null,
+  "plazoFecha": "2026-11-30",
+  "plazoHora": "14:00:00",
   "duracion": "3 años",
   "garantiaDefinitiva": null,
   "fondosUE": "No hay financiación con fondos de la UE",
-  "criterios": [],
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Precio",
+    "peso": 50
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Incremento de licencias",
+    "peso": 5
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Plan de implantación y puesta en marcha",
+    "peso": 15
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Mejoras",
+    "peso": 3
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Planteamiento técnico y funcional",
+    "peso": 20
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Organización del servicio y soporte",
+    "peso": 7
+   }
+  ],
   "docs": [
    {
     "nombre": "042026034969PCAP.pdf",
@@ -78820,8 +79178,8 @@
   "expediente": "2026-058-A",
   "titulo": "servicios de soporte al Centro de Atención al Usuario (CAU), mantenimiento del puesto de trabajo y del sistema de ticketing del Ayuntamiento de Palma",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fnkj5a%2BNGmLyoM4us5k4vw%3D%3D",
-  "actualizado": "2026-10-26T11:28:57.828+01:00",
-  "estado": "EV",
+  "actualizado": "2026-11-08T13:41:53.645+01:00",
+  "estado": "RES",
   "cpvs": [
    "50324100",
    "",
@@ -78842,14 +79200,14 @@
   "fondosUE": "No hay financiación con fondos de la UE",
   "criterios": [
    {
-    "tipo": "OBJ",
-    "desc": "Oferta técnica",
-    "peso": 40
-   },
-   {
     "tipo": "SUBJ",
     "desc": "Memoria técnica",
     "peso": 25
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Oferta técnica",
+    "peso": 40
    },
    {
     "tipo": "OBJ",
@@ -108118,6 +108476,93 @@
   ],
   "slug": "suministro-instalacion-configuracion-de-un-servidor-de-ia-20657300"
  },
+ "20657351": {
+  "id": "20657351",
+  "expediente": "35032/2026",
+  "titulo": "Contrato administrativo de suministro que tiene por objeto la contratación de una solución integral de gestión económico-financiera y patrimonial municipal para el Ayuntamiento de Adeje",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hvIvjDAJKyUXhk1FZxEyvw%3D%3D",
+  "actualizado": "2026-11-08T14:56:36.087+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "48440000",
+   "",
+   "72261000",
+   "",
+   "72263000",
+   "",
+   "48442000",
+   ""
+  ],
+  "organo": "Concejalía Delegada de Hacienda de Adeje",
+  "ciudad": "Adeje",
+  "provincia": null,
+  "importe": 485331.93,
+  "valorEstimado": 485331.93,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-11-13",
+  "plazoHora": "23:59:00",
+  "duracion": "48 meses",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Ampliación de la bolsa de horas de consultoría especializada",
+    "peso": 10
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Memoria técnica",
+    "peso": 45
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Oferta económica. Precio más bajo",
+    "peso": 35
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Canal telefónico directo con experto/a en contabilidad pública de entidades locales",
+    "peso": 10
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "PCAP Rectif anexo V.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YG/Qg2H%2ByObZ77zuKN6PE6QOg6kvkkAKjAUmf0WtEU9SY%2Bk/3n90NNooVoK3el86wdDu4nDchDodnHCh8VnpQAzrPLxf%2BEbChggP4Ux1l3gC1/zDIE0Kw/PWNnLS0Z0z"
+   },
+   {
+    "nombre": "PPT.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=FXChfKfhAdpgu/MgBJ6Gbw8bTYyGrTX3DV%2BkCrJD0EgH6rDD%2B973j6HAu7zAB7FNOTMLy5WCvDQKpY6%2BaVlnZbT3x1Tiypbq8ufQB2JEFyT3GVhXrFFqN7yFncy7YfRK"
+   },
+   {
+    "nombre": "ANEXO V  RECTIFICADO .docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Q8LUgtRULVJHoNBoNaktzDto9IB3ntMGd5vOnP0mAteqgtz%2BaMm5GwDkf/ADC6DUztr1PhE19nu4T9tpLdQzxOH5akqdM28MigTGBtSj5JXfdyQgZAdTm3EfcUAC7CJ6"
+   },
+   {
+    "nombre": "DECRETO APROB.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=eHx%2BU0GHLdF/3/6/ccN1VKMTP%2BNjeINA/8W6fPUVgZQxEEYJYC0W%2B/XBJqbh%2BBKyvsXLduAvQI6LmBgKKSeZl0XUgp99KEdvIbIQC2UJqj3DdQD9RyhUmzT4jZ2In4zL"
+   },
+   {
+    "nombre": "ANEXO IV MODELO DECLARACION RESPON.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZSmOCTKW1wdKzwCkv%2BxzgC%2BF%2BG22iBk7DtMzDxr09btlPcxwfRgK6lg91cvwEfike9jcgjLrHJ/3JoboswkuP02qhLQxfWM8d1TMkuOXDN%2BHAj0WEJrB5sP7amrh2jBD"
+   },
+   {
+    "nombre": "ANEXO VIII MODELO COMPROMISO INTEGRAC.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=RrRE88ZreBuCNaPcYOVf99ByjqSql/Yvq0RPnWIob8JoAabY8TzvqD1iPTi6FyR74ZZscs8UAg839hTOi%2BGgRrurOH7OP5MLTF%2BqEs8OBhTVTD3T98KC0nSgQFM0q%2B5s"
+   },
+   {
+    "nombre": "ANEXO VII  MODELO GARANTIAS SEGURO CAUCION.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2XUsAwKMa6y3uWVk7iy8Bh9X3b6qBJWUHnWz4GB2/RATJSZSyMgF0kNxAndfoJpw4EAqV1cwA9foCMOzZGtyjM8ZK6i8F1AafxkKwkdAORvfdyQgZAdTm3EfcUAC7CJ6"
+   },
+   {
+    "nombre": "ANEXO VI MODELO GARANTIAS.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jZ1QKstzvX9v%2B7bb8xQObNNI/sehmn479U1%2BZd85/MJqRhy85v4TiDVj%2BERrm55eDCqHgtEfi012LW3DHksLrzhik3PiA5rR0ZO0TyGcKfpJOVDbGCDM%2BMigrvuVS7Rv"
+   }
+  ],
+  "slug": "contrato-administrativo-de-suministro-que-tiene-por-objeto-la-contrata-20657351"
+ },
  "20657383": {
   "id": "20657383",
   "expediente": "SUM-26/26BA",
@@ -113425,7 +113870,7 @@
   "expediente": "13015/2026",
   "titulo": "Actualización de Licencias de Productos WEBLOGIC ORACLE 2026-2029.",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bfhC8JEFA0KOUi78BmzhOQ%3D%3D",
-  "actualizado": "2026-11-06T12:11:02.883+01:00",
+  "actualizado": "2026-11-08T12:26:58.351+01:00",
   "estado": "RES",
   "cpvs": [
    "48983000",
@@ -128398,8 +128843,8 @@
   "expediente": "CS/99/1126067408/26/PNSP",
   "titulo": "Suministro De Licencias Red Hat Openshift Platform Bare Metal Node Standard",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=C78FSEuKJ63s%2BnLj3vAg5A%3D%3D",
-  "actualizado": "2026-11-06T14:21:06.346+01:00",
-  "estado": "EV",
+  "actualizado": "2026-11-08T14:42:02.924+01:00",
+  "estado": "ADJ",
   "cpvs": [
    "48000000",
    "",
@@ -167354,5 +167799,700 @@
   ],
   "docs": [],
   "slug": "suscripcion-a-licencias-commvault-o-equivalente-ministerio-de-economia-20862698"
+ },
+ "20863958": {
+  "id": "20863958",
+  "expediente": "2026/SP03032007/00000784E",
+  "titulo": "Contrato Basado 1 del Lote 2: Desarrollo del proyecto CANODE, del Acuerdo Marco de suministro e implantación de los nodos desplegables del SC2N y los servicios de construcción y despliegue del sistema CANODE (expediente N.º 2025/SP03032003/00000320E).",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Gzx9ENCz4%2BbgL1BHd3qjQA%3D%3D",
+  "actualizado": "2026-11-08T19:58:12.330+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "72230000",
+   "",
+   "72220000",
+   ""
+  ],
+  "organo": "Subdirección General de Contratación de Tecnologías de la Información y de las Comunicaciones (TIC)",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 492972.48,
+  "valorEstimado": 492972.48,
+  "tipo": "Servicios",
+  "procedimiento": "Negociado sin publicidad",
+  "plazoFecha": "2026-10-27",
+  "plazoHora": "23:59:00",
+  "duracion": "30 días",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Precio",
+    "peso": 100
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "13 PCAP AM 0320E.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4p7umvKpOgwUFKiqvZXGHEzkfdtCPAAryCZb0d%2Bd/uM7mAq9JsejUf1uYjgCneENvKFkwlvJ1mgJE1jL51FDUTjG6ElWYaEOLfDeOGnvwgZt/o8fNevwsujgRzaBbugn"
+   }
+  ],
+  "slug": "contrato-basado-1-del-lote-2-desarrollo-del-proyecto-canode-del-acuerd-20863958"
+ },
+ "20863962": {
+  "id": "20863962",
+  "expediente": "2026/SP03032007/00000748",
+  "titulo": "Contrato Basado 3 en la Prórroga Extraordinaria del Lote 5: Servicios e Infraestructuras de Telemedicina de la I3D del Ministerio de Defensa, del AM para la Contratación de Servicios e Infraestructuras de Telecomunicaciones de la I3D (2021/JCMDEF/00000070E).",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Cec6yVIjmgnXOjazN1Dw9Q%3D%3D",
+  "actualizado": "2026-11-08T19:35:35.992+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "64200000",
+   ""
+  ],
+  "organo": "Subdirección General de Contratación de Tecnologías de la Información y de las Comunicaciones (TIC)",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 8226.46,
+  "valorEstimado": 8226.46,
+  "tipo": "Servicios",
+  "procedimiento": "Negociado sin publicidad",
+  "plazoFecha": "2026-10-28",
+  "plazoHora": "23:59:00",
+  "duracion": "2 meses",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Precio",
+    "peso": 100
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "13 PCAP AM.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=818sPEN%2BvzlFosd8TCbhisuGEOPUxms2DxF86DSGjY7tUZ2IfFleUrq57T28aqTn1KILEPCRFECWfaDxdiFZu3Npk98LxxTvLExkNxW6qE2Cx2e6p7hqtlp2aFupgHMr"
+   }
+  ],
+  "slug": "contrato-basado-3-en-la-prorroga-extraordinaria-del-lote-5-servicios-e-20863962"
+ },
+ "20863964": {
+  "id": "20863964",
+  "expediente": "2026/SP03032007/00000747",
+  "titulo": "CBAM 3 en la Prórroga Extraordinaria del Lote 4 Servicios e Infraestructuras de Acceso a Internet de la I3D del Ministerio de Defensa del AM para la Contratación de Servicios e Infraestructuras de Telecomunicaciones de la I3D",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2JVVGdvipaCOUi78BmzhOQ%3D%3D",
+  "actualizado": "2026-11-08T19:23:46.447+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "64200000",
+   ""
+  ],
+  "organo": "Subdirección General de Contratación de Tecnologías de la Información y de las Comunicaciones (TIC)",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 49993.78,
+  "valorEstimado": 49993.78,
+  "tipo": "Servicios",
+  "procedimiento": "Negociado sin publicidad",
+  "plazoFecha": "2026-10-28",
+  "plazoHora": "23:59:00",
+  "duracion": "2 meses",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Precio",
+    "peso": 100
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "13 PCAP AM.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7YGCYRaSc7uCPBPmCXmOM5Md/VTmoDRF46c3QKxbdfNaRqefKm3%2Bq67IrqD%2B0ZdzP%2B6CXLcVhyIes6KC1E1EE1cIWDBQ6scKkW3COqHRUl2HAj0WEJrB5sP7amrh2jBD"
+   }
+  ],
+  "slug": "cbam-3-en-la-prorroga-extraordinaria-del-lote-4-servicios-e-infraestru-20863964"
+ },
+ "20863972": {
+  "id": "20863972",
+  "expediente": "CONT26062",
+  "titulo": "Mantenimiento de 48 licencias Business Central on-premise con add on",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vz1jn%2Bi45OF4zIRvjBVCSw%3D%3D",
+  "actualizado": "2026-11-08T18:00:48.184+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "72317000",
+   ""
+  ],
+  "organo": "Autoridad Portuaria de Sevilla",
+  "ciudad": "Sevilla",
+  "provincia": "Sevilla",
+  "importe": 33516.04,
+  "valorEstimado": 33516.04,
+  "tipo": "Servicios",
+  "procedimiento": "Negociado con publicidad",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": "1 años",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "SUBJ",
+    "desc": "Negociación",
+    "peso": 100
+   }
+  ],
+  "docs": [],
+  "slug": "mantenimiento-de-48-licencias-business-central-on-premise-con-add-on-20863972"
+ },
+ "20863978": {
+  "id": "20863978",
+  "expediente": "SUM/2026/0000094172",
+  "titulo": "La realización mixta del suministro mediante arrendamiento con opción a compra de 100 equipos multifuncionales, con instalación, puesta en servicio, con servicio de mantenimiento incluido y suministro de consumibles en modelo de pago por copia, con destino la Gerencia de los Servicios Sanitarios del Área de Salud de La Palma.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EG%2BuhL%2FOWBGqb7rCcv76BA%3D%3D",
+  "actualizado": "2026-11-08T15:11:50.866+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "30120000",
+   "",
+   "30200000",
+   "",
+   "50314000",
+   ""
+  ],
+  "organo": "Gerencia de los servicios Sanitarios del Area de Salud de La Palma",
+  "ciudad": "Breña Alta",
+  "provincia": "La Palma",
+  "importe": 566734.95,
+  "valorEstimado": 824740.68,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-12-15",
+  "plazoHora": "15:00:00",
+  "duracion": "48 meses",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Mayor capacidad del alimentador",
+    "peso": 10
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Precio cuota variable Color",
+    "peso": 5
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Diseño y metodología del proyecto",
+    "peso": 10
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Modelo organizativo",
+    "peso": 5
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Precio cuota variable Copia B/N",
+    "peso": 5
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Mayor velocidad de impresión",
+    "peso": 10
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Precio cuota fija",
+    "peso": 35
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Mayor velocidad de escaneo",
+    "peso": 10
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Plataforma tecnológica",
+    "peso": 10
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "07PCAPdef.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2YBJnezPfIxO8/tcpsgmIFGlEnD/lWwhblomVvhEvX8Vj10ZIiKrFyRn%2BjgL71P4wFQQEY2FVbENjKUgLsoU6whm8Cc3Z2lounG1RfL/C04//q7NB2iMZvNyf0xrJmjt"
+   },
+   {
+    "nombre": "PPT.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=y9If62FQ8FNXn06V/%2B2oS/3YuRRgTLX26Mh9F/iY4zw2BIpHB1qEO4dMOy0r4b/e00a50B3wz4Ni0vBypzvtaJxgmrGN1f6fro4Po2T1ry2B0nvVKRzfe4rpHcnlPhSZ"
+   }
+  ],
+  "slug": "la-realizacion-mixta-del-suministro-mediante-arrendamiento-con-opcion--20863978"
+ },
+ "20863989": {
+  "id": "20863989",
+  "expediente": "04101/2026/120-SER",
+  "titulo": "Servicios informáticos para el soporte a la explotación y mantenimiento correctivo, adaptativo, preventivo y evolutivo de los aplicativos BASE DE DATOS DE CIUDADANÍA y CEMXXI del Ayuntamiento de València (2 LOTES)",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=TO0%2BSBl25dy8ebB%2FXTwy0A%3D%3D",
+  "actualizado": "2026-11-08T13:56:54.945+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "72000000",
+   "",
+   "72263000",
+   "",
+   "72267000",
+   "",
+   "72000000",
+   "",
+   "72263000",
+   "",
+   "72267000",
+   "",
+   "72000000",
+   "",
+   "72267000",
+   "",
+   "72263000",
+   ""
+  ],
+  "organo": "Junta de Gobierno del Ajuntament de València",
+  "ciudad": "València",
+  "provincia": "Valencia/València",
+  "importe": 426720,
+  "valorEstimado": 853440,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-12-07",
+  "plazoHora": "23:59:00",
+  "duracion": "2 años",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "MENOR PRECIO OFERTADO",
+    "peso": 56
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "PLAN DE TRABAJO, SEGUIMIENTO, CALIDAD Y TRANSFERENCIA DEL CONOCIMIENTO",
+    "peso": 44
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "PCAP.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ftXJmS4tvU4VNKDsyhYDjC7ijPRQUqGLRQFKUr5u0qeqshqcYI9nEVHHCOOHPi%2BXBPLy%2BVoAMk/jYYDxyDKv0d2PeHsd4ljCGT%2BTZOG4iY545ClyWkoJ44mKM70IFcOu"
+   },
+   {
+    "nombre": "PPTP.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=F2x36n79ul7fY7J/wMbn7Ey5GKfJ5rkT2aimngUuLMZ0GDRzQQr8fmVgcZTuFIgxmXhISXn3wFtTxYFopjrrUlE40JPG7xcgfEIbwJvMwofVTD3T98KC0nSgQFM0q%2B5s"
+   },
+   {
+    "nombre": "ANEXO II.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2yn3TO/lyB4x0chYvGB2%2B%2B1ww3NVdm0GVyjwrqzgounZYcplZjrqt2y4cKqiW/Bh6%2B%2BgHTyJ4XIcAs7O2NtLV/BSCgyHkMg6HXPR4wkUdiA//q7NB2iMZvNyf0xrJmjt"
+   },
+   {
+    "nombre": "ANEXO I.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0Hje04hMgA%2B35mcF8K8KUBmmxjho7%2BUTr5bnSmSh9IMYowaHICwFBy63l1pxW5T38iGDyei4jiOQDxysldYFO88LGxPghmThONUbQU3heEB7QB3HKyQaFUExmUVQCerk"
+   }
+  ],
+  "slug": "servicios-informaticos-para-el-soporte-a-la-explotacion-y-mantenimient-20863989"
+ },
+ "20863996": {
+  "id": "20863996",
+  "expediente": "2026SDA26",
+  "titulo": "Suscripciones de licencias de software de visualización y edición de archivos multimedia",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=pm1TT0t3ByWKeVWTb9Scog%3D%3D",
+  "actualizado": "2026-11-08T13:11:42.448+01:00",
+  "estado": "ADJ",
+  "cpvs": [
+   "48000000",
+   "",
+   "48000000",
+   ""
+  ],
+  "organo": "Organismo Autónomo Informática del Ayuntamiento de Madrid",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 302361.8,
+  "valorEstimado": 302361.8,
+  "tipo": "Suministros",
+  "procedimiento": "Restringido",
+  "plazoFecha": "2026-10-05",
+  "plazoHora": "23:59:00",
+  "duracion": "746 días",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Precio",
+    "peso": 100
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "00 PCAP 25-2022.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wRA0lfsCH5Q/CwkinAmzecDs8QZfOHeanSTkm3zRto9gfTANgGba2TTneZ1BUBXRaX8znK69GQ6z6VUgzObn9aM43kaj0T7qgRv6WJ5cHHDDdQD9RyhUmzT4jZ2In4zL"
+   },
+   {
+    "nombre": "00 PPTP 25-2022.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UATg%2BBrF0IQaLkmbTYJAssBKdmlhNPRxBiH1yWvXvYC9%2BigWtFh6uU00o2qC7dAtW%2BxqmzikABiaqVwsJnmyBlkd3OpKaKaFQROlDiDWOvcC1/zDIE0Kw/PWNnLS0Z0z"
+   },
+   {
+    "nombre": "02 Estudio econ 2026SDA26.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=kNKjJjdDPUoWREVpsD3cbnPQCl7v/j6cTR3lKsjKnISftxmaTjnGlm9n1P1655/ZXv%2BuspelJUQbKuHMzDmv8g/RfzVx0NZa7YTD0QVEcWPfdyQgZAdTm3EfcUAC7CJ6"
+   }
+  ],
+  "slug": "suscripciones-de-licencias-de-software-de-visualizacion-y-edicion-de-a-20863996"
+ },
+ "20864001": {
+  "id": "20864001",
+  "expediente": "CSRV.7/27",
+  "titulo": "Servicio de&#xD;\nmantenimiento y evolución de la Plataforma Provincia Digital",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QFAfF4y3CJns%2BnLj3vAg5A%3D%3D",
+  "actualizado": "2026-11-08T12:41:58.279+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "72212900",
+   "",
+   "72266000",
+   "",
+   "72413000",
+   "",
+   "72262000",
+   "",
+   "72267100",
+   ""
+  ],
+  "organo": "Presidencia de la Diputación Provincial de Guadalajara",
+  "ciudad": "Guadalajara",
+  "provincia": "Guadalajara",
+  "importe": 227200,
+  "valorEstimado": 272640,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-12-07",
+  "plazoHora": "23:59:00",
+  "duracion": "4 años",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Oficina técnica (Experiencia adicional equipo propuesto)",
+    "peso": 10
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Precio",
+    "peso": 40
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Juicios de valor",
+    "peso": 50
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "PCAP.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2os0Uu9BwBItAK9IgQSbBNRLxLiXLoRjzmevxO8h2epS4WLuMhs6vHt%2BU2ee34n1lMfe8IQ7/5d/MFoZ4tdRI6esCe9Mbzj52/QOeYuLsCOB0nvVKRzfe4rpHcnlPhSZ"
+   },
+   {
+    "nombre": "PPT.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=v5D9Uh4mlXGM/Bxydj9/b2IgsRvrkE8sfNFryM0GnCq1pHWMeS05F3hkLaEcck6bEldml/wQRH%2BFbtlczjVvSUijCg3xSn/JOkvoJ79E8a33GVhXrFFqN7yFncy7YfRK"
+   }
+  ],
+  "slug": "servicio-de-xd-mantenimiento-y-evolucion-de-la-plataforma-provincia-di-20864001"
+ },
+ "20864002": {
+  "id": "20864002",
+  "expediente": "MIX5O-224/2026",
+  "titulo": "Contrato Mixto de suministro y mantenimiento de una Plataforma tecnológica de gestión y tramitación electrónica de documentos y expedientes para la Diputación Provincial de Alicante y Grupo Local",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eIO5AkdCMP9%2BF6L2uCfUWg%3D%3D",
+  "actualizado": "2026-11-08T12:41:48.640+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "48311000",
+   "",
+   "72317000",
+   "",
+   "72512000",
+   ""
+  ],
+  "organo": "Presidencia de la Diputación Provincial de Alicante",
+  "ciudad": "Alicante",
+  "provincia": "Alicante/Alacant",
+  "importe": 570247.93,
+  "valorEstimado": 2157024.79,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-12-07",
+  "plazoHora": "23:59:00",
+  "duracion": "1 años",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "SUBJ",
+    "desc": "b.5) Seguridad y protección de datos",
+    "peso": 8
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "a.3) Módulo de gestión de cita previa",
+    "peso": 10
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "a.2) Mayor número de jornadas para acciones de Mejora Continua",
+    "peso": 5
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "b.2) Solidez del modelo de tramitación y motor procedimental",
+    "peso": 9
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "b.1) Calidad funcional integral de la Sede Electrónica",
+    "peso": 8
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "a.1) Menor Precio",
+    "peso": 25
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "a.5) Módulo de analítica de datos",
+    "peso": 5
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "b.4) Calidad del módulo de Órganos Colegiados",
+    "peso": 10
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "b.3) Nivel técnico de la solución de firma electrónica",
+    "peso": 10
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "a.4) Módulo de atención telemática por videoconferencia",
+    "peso": 10
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "PCAP.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SZ0SFnLyaAoquDmfs%2BHQ2RpF73N3eNM80CCapEOdMpRm2dVdpiwO8PDbX6Bt5LMw3kPq1znhwUHgxNx08h/pOtoWAAwZj4oUUyX5dFCaZfD3GVhXrFFqN7yFncy7YfRK"
+   },
+   {
+    "nombre": "PPT.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=50Lu8eUdirgGyoEVPk4JhW77b8cCWvup7vxUQTvHBcuH9uGE4XTlB0frpvsZGqn0d614fj4WK1QOMDMTl0baSDNRvv3VF0i/H149VYpk8j945ClyWkoJ44mKM70IFcOu"
+   }
+  ],
+  "slug": "contrato-mixto-de-suministro-y-mantenimiento-de-una-plataforma-tecnolo-20864002"
+ },
+ "20864024": {
+  "id": "20864024",
+  "expediente": "2026/CMY_03/000125",
+  "titulo": "Contrato de Servicios para la dotación de una Plataforma Tecnológica multientidad para la gestión administrativa del personal de las distintas entidades locales de la provincia de Huelva.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=PJuQv4nezb4kJPJS%2BPS9vg%3D%3D",
+  "actualizado": "2026-11-08T10:26:49.067+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "72267000",
+   "",
+   "72310000",
+   "",
+   "80533100",
+   "",
+   "72263000",
+   "",
+   "79414000",
+   ""
+  ],
+  "organo": "Junta de Gobierno de la Diputación Provincial de Huelva",
+  "ciudad": "Huelva",
+  "provincia": "Huelva",
+  "importe": 1503900,
+  "valorEstimado": 1503900,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-11-23",
+  "plazoHora": "23:59:00",
+  "duracion": "4 años",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "PRECIO",
+    "peso": 80
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "MEMORIA TÉCNICA",
+    "peso": 10
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "MEJORA PLAZOS RESOLUCIÓN INCIDENCIAS",
+    "peso": 5
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "FORMACIÓN COMPLEMENTARIA",
+    "peso": 5
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "Pliego de Clausulas administrativas Plataforma multientidad.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UvY8GDwZwEsFi5JWaFIsjX5uqIwo/JCJ7m8Yzg%2BrZFI7RSj3k0nAOeJYdPETJcBH7w2O%2BbnF8EMIRSyPLaCq4Lew2j7U6XD4eSVj%2BH9fjt5JOVDbGCDM%2BMigrvuVS7Rv"
+   },
+   {
+    "nombre": "Pliego de Prescripciones Tecnicas Plataforma multientidad.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=feL29Io3yq9pf2GXkMZaxgX9P0PWc4zttKvAdafMGQsdB9/NvCqLlpeo6G0Gis0mZlmdRYIl7hHO2lq7L/WXk/zFDSasyRKJb7LzROf7Flx7QB3HKyQaFUExmUVQCerk"
+   }
+  ],
+  "slug": "contrato-de-servicios-para-la-dotacion-de-una-plataforma-tecnologica-m-20864024"
+ },
+ "20864027": {
+  "id": "20864027",
+  "expediente": "S-AB/2026/000413",
+  "titulo": "Contrato mixto de suministro y servicio de implantación de un Sistema de Gestión de Actividad de Servicios Científico-Técnicos destinado a los Centros de Asistencia a la Investigación (CAI) de la Universidad Complutense de Madrid",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2M%2FD6izMUAxq1DdmE7eaXg%3D%3D",
+  "actualizado": "2026-11-08T09:56:49.123+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "48781000",
+   "",
+   "72263000",
+   ""
+  ],
+  "organo": "Rectorado de la Universidad Complutense de Madrid",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 420000,
+  "valorEstimado": 420000,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-12-10",
+  "plazoHora": "14:00:00",
+  "duracion": "166 días",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Módulo de gestión de equipamiento de laboratorio",
+    "peso": 20
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Precio",
+    "peso": 20
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Otros criterios de Funcionalidad",
+    "peso": 8
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Módulo de gestión de inventario de laboratorio",
+    "peso": 20
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Extensión del plazo de garantía",
+    "peso": 12
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Calidad del sistema propuesto",
+    "peso": 20
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "ANEXO VIII.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3RvTg%2BqJGplpqK%2BNayOJdq9bW0Y1b%2BQ9C34nZNrj%2BVvGCeSiyyz0qb63tlQbXO0jpZ6WNsHL5j1v4OVF9DCWaNmEidIfjYM%2Bl6q82%2B7ZM0jDdQD9RyhUmzT4jZ2In4zL"
+   },
+   {
+    "nombre": "DEUC 2026-000413.xml",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/PAru1EEwva54HtLtTYEFj9mhBsiHIxkQi31Y0LRiDpVz5wkVwGWUJHO7IoEMPM%2BI9OHQjw2YuDuBWstI443w5njquDdcNK10MDUq2JbY5pt/o8fNevwsujgRzaBbugn"
+   },
+   {
+    "nombre": "ANEXO VI.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QWinW4sPPGO2yN5vJThk09idxV1hs9r3/u6hsfPh13jR7QeBamsk3siuZNmDg4p5eUSZy5eXfQz3mz2K6QKjWB%2BATFf1zulY2Q8f5PgOREi1aXEvq3KHa/AEHgtDrQw0"
+   },
+   {
+    "nombre": "ANEXO XIII  Tratamiento de datos personales.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=6Y58Sy/QSG7Jvezanubic1gqlOHPDGmza8QVtb7OLHHpDlnX/PrmE5eAIGukZHGbfW/ETivkVMjdjtEu6zYDD94WAd5m/De35yjUlgghKL/DdQD9RyhUmzT4jZ2In4zL"
+   },
+   {
+    "nombre": "ANEXO IX.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cTR9hexOV2AU9EB2ScK6mY%2BZ6xke106no1k/AmpsztmYE/2fk9QkBQNnHbexFp/5Uu9leoaVuy%2BegXRYbncmCQxe6snRNPQFjCroL9ump9bfdyQgZAdTm3EfcUAC7CJ6"
+   },
+   {
+    "nombre": "ANEXO I 2026-000413.docx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tDkI/YCyv1emfq6YE1WZ52uMT10QTeLTmVZl6twPPY%2B6CYo1qWcpQOq%2BrEFEnxEt/2INDVogNL0BnvQ%2BINttcCLMh2qesV1cXGFPh1lFefyCx2e6p7hqtlp2aFupgHMr"
+   }
+  ],
+  "slug": "contrato-mixto-de-suministro-y-servicio-de-implantacion-de-un-sistema--20864027"
+ },
+ "20864038": {
+  "id": "20864038",
+  "expediente": "CEA4227/2026",
+  "titulo": "2026/Sp02002001/00001395E - Adquisición Y Suministro De Equipamiento Para La Ampliación De Las Capacidades De Almacenamiento, Procesamiento Y Cómputo De Fuentes Abiertas Y Del Sistema De Transmisión De Imágenes De Video (Ministerio De Defensa-Estado Mayor De La Defensa)",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=i8CPt2xKtYwkJPJS%2BPS9vg%3D%3D",
+  "actualizado": "2026-11-08T08:26:43.365+01:00",
+  "estado": "ADJ",
+  "cpvs": [
+   "30200000",
+   "",
+   "30200000",
+   ""
+  ],
+  "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 5286313.23,
+  "valorEstimado": 5286313.23,
+  "tipo": "Suministros",
+  "procedimiento": "Restringido",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": "40 días",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Si existen criterios cuantificables automáticamente están definidos en el documento de licitación, junto a su peso",
+    "peso": 50
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Si existen criterios de juicios de valor están definidos en el documento de licitación, junto a su peso",
+    "peso": 50
+   }
+  ],
+  "docs": [],
+  "slug": "2026-sp02002001-00001395e-adquisicion-y-suministro-de-equipamiento-par-20864038"
  }
 }
