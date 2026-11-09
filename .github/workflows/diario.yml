@@ -20,6 +20,9 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - name: Generar fichas
+        env:
+          CATEGORIAS_DIR: sitio/licitaciones
+          CATEGORIAS_EN_SITEMAP: '1'
         run: |
           if [ -f datos/licitaciones.json ]; then P=12; else P=60; fi
           node scripts/generar.mjs $P
