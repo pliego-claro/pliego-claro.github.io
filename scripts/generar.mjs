@@ -95,7 +95,7 @@ async function main() {
 }
 
 const hoy = () => new Date().toISOString().slice(0, 10);
-const diasHasta = f => f ? Math.ceil((new Date(f + 'T23:59:59') - new Date()) / 864e5) : null;
+const diasHasta = f => f ? Math.round((new Date(f.slice(0, 10) + 'T00:00:00Z') - new Date(hoy() + 'T00:00:00Z')) / 864e5) : null;
 // Puntos de juicio de valor sobre 100. Con varios lotes, los datos abiertos repiten los criterios
 // de cada lote: se calcula por lote (grupos "1.x", "2.x"…) o en proporción al total.
 const esMultilote = L => L.criterios.reduce((a, c) => a + c.peso, 0) > 100.5;
