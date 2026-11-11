@@ -22,7 +22,13 @@ const esTIC = c => { const v = c.filter(Boolean).filter(x => !CPV_FUERA.test(x))
 
 const txt = (s, re) => { const m = s.match(re); return m ? dec(m[1].trim()) : null; };
 const all = (s, re) => [...s.matchAll(re)].map(m => dec(m[1].trim()));
-const dec = s => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+const dec = s => s.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+  .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n))).replace(/\s+/g, ' ').trim();
+// Limpia textos ya guardados (saltos de línea codificados del feed) y rehace el enlace si cambia el título
+const limpiar = L => { const t = L.titulo; for (const k of ['titulo', 'organo', 'ciudad', 'provincia']) if (typeof L[k] === 'string') L[k] = dec(L[k]);
+  for (const c of L.criterios || []) if (typeof c.desc === 'string') c.desc = dec(c.desc);
+  for (const d of L.docs || []) if (typeof d.nombre === 'string') d.nombre = dec(d.nombre);
+  if (L.titulo !== t) L.slug = `${slug(L.titulo || L.expediente)}-${L.id}`; return L; };
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const eur = n => n == null ? '—' : Number(n).toLocaleString('es-ES', { maximumFractionDigits: 0 }) + ' €';
 const slug = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 70);
@@ -73,6 +79,7 @@ async function bajar(url) {
 async function main() {
   fs.mkdirSync(path.dirname(DATOS), { recursive: true });
   const db = fs.existsSync(DATOS) ? JSON.parse(fs.readFileSync(DATOS, 'utf8')) : {};
+  for (const L of Object.values(db)) limpiar(L);
   let url = FEED, nuevas = 0, vistas = 0;
   for (let p = 0; p < PAGINAS && url; p++) {
     let t;
@@ -201,12 +208,14 @@ function publicarCategorias(enPlazo, dir) {
       cuerpo: `<h1>Licitaciones de ${esc(t.nombre.toLowerCase())} en plazo</h1><p class="mu">${lista.length} licitaciones abiertas. Actualizado el ${hoy()}. «Juicio» = puntos (sobre 100) que dependen de la memoria técnica.</p><div class="ia">Lista generada por una IA a partir de los datos abiertos de la Plataforma de Contratación del Sector Público.</div>${nav}${tabla(lista)}` });
     fs.writeFileSync(path.join(dir, 'tipo', t.slug + '.html'), html); out.push(`${BASE_URL}/licitaciones/tipo/${t.slug}.html`);
   }
-  const grupos = {}; for (const L of enPlazo) (grupos[ccaaDe(L)] ||= []).push(L);
+  // Todas las comunidades tienen página cada día, también las que hoy no tienen ninguna licitación (así no queda una lista antigua)
+  const grupos = {}; for (const k of Object.keys(CCAA).concat('Toda España o sin especificar')) grupos[k] = [];
+  for (const L of enPlazo) (grupos[ccaaDe(L)] ||= []).push(L);
   const navC = `<p class="mu">Ver por comunidad: ${Object.keys(grupos).sort().map(k => `<a href="${BASE_URL}/licitaciones/comunidad/${slug(k)}.html">${esc(k)}</a>`).join(' · ')}</p>`;
   for (const [k, lista] of Object.entries(grupos)) {
     const html = pagina({ titulo: `Licitaciones TIC en ${k} en plazo · Pliego Claro`, descripcion: `${lista.length} licitaciones públicas de software, servicios TI y telecomunicaciones en ${k}, con criterios y puntos de la memoria técnica. Actualizado cada día.`, canon: `${BASE_URL}/licitaciones/comunidad/${slug(k)}.html`,
-      cuerpo: `<h1>Licitaciones TIC en ${esc(k)}</h1><p class="mu">${lista.length} licitaciones abiertas de software, servicios TI, equipos y telecomunicaciones. Actualizado el ${hoy()}.</p><div class="ia">Lista generada por una IA a partir de los datos abiertos de la Plataforma de Contratación del Sector Público.</div>${navC}${tabla(lista)}` });
-    fs.writeFileSync(path.join(dir, 'comunidad', slug(k) + '.html'), html); out.push(`${BASE_URL}/licitaciones/comunidad/${slug(k)}.html`);
+      cuerpo: `<h1>Licitaciones TIC en ${esc(k)}</h1><p class="mu">${lista.length} licitaciones abiertas de software, servicios TI, equipos y telecomunicaciones. Actualizado el ${hoy()}.</p><div class="ia">Lista generada por una IA a partir de los datos abiertos de la Plataforma de Contratación del Sector Público.</div>${navC}${lista.length ? tabla(lista) : `<p>Hoy no hay ninguna licitación TIC en plazo en ${esc(k)}. Mira <a href="${BASE_URL}/licitaciones/">todas las licitaciones TIC en plazo</a>.</p>`}` });
+    fs.writeFileSync(path.join(dir, 'comunidad', slug(k) + '.html'), html); if (lista.length) out.push(`${BASE_URL}/licitaciones/comunidad/${slug(k)}.html`);
   }
   return out;
 }
