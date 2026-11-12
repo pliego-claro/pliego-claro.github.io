@@ -62381,8 +62381,8 @@
   "expediente": "414/2025",
   "titulo": "Servicio de delegado de protección de datos y de asesoramiento, consultoría y gestión en materia de protección de datos de carácter personal",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=jnR11yczIP710HRJw8TEnQ%3D%3D",
-  "actualizado": "2026-10-29T10:17:35.930+01:00",
-  "estado": "EV",
+  "actualizado": "2026-11-11T19:41:24.262+01:00",
+  "estado": "ADJ",
   "cpvs": [
    "72300000",
    "",
@@ -62401,13 +62401,23 @@
   "plazoFecha": "2026-08-17",
   "plazoHora": "23:59:00",
   "duracion": "12 meses",
-  "garantiaDefinitiva": "5",
+  "garantiaDefinitiva": null,
   "fondosUE": "No hay financiación con fondos de la UE",
   "criterios": [
    {
     "tipo": "OBJ",
+    "desc": "REDUCCIÓN DEL PLAZO DE RESPUESTA",
+    "peso": 30
+   },
+   {
+    "tipo": "OBJ",
     "desc": "PRECIO",
     "peso": 20
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "EXPERIENCIA PROFESIONAL ADICIONAL",
+    "peso": 10
    },
    {
     "tipo": "OBJ",
@@ -62416,17 +62426,7 @@
    },
    {
     "tipo": "OBJ",
-    "desc": "REDUCCIÓN DEL PLAZO DE RESPUESTA",
-    "peso": 30
-   },
-   {
-    "tipo": "OBJ",
     "desc": "AMPLIACIÓN DEL HORARIO MÍNIMO DE ATENCIÓN",
-    "peso": 10
-   },
-   {
-    "tipo": "OBJ",
-    "desc": "EXPERIENCIA PROFESIONAL ADICIONAL",
     "peso": 10
    },
    {
@@ -63756,8 +63756,8 @@
   "expediente": "25/26 DREC",
   "titulo": "La presente contratación tiene por objeto la prestación del servicio integral de mantenimiento, soporte técnico, administración y evolución funcional de la plataforma web corporativa de MERCASA, integrada por el sitio web corporativo (www.mercasa.es ), los sitios web asociados y el resto de los activos digitales de la organización y digitalización de otra documentación",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AbctC6RSYAcaF6cS8TCh%2FA%3D%3D",
-  "actualizado": "2026-11-05T10:30:28.372+01:00",
-  "estado": "ADJ",
+  "actualizado": "2026-11-11T17:48:27.938+01:00",
+  "estado": "RES",
   "cpvs": [
    "72413000",
    "",
@@ -63784,13 +63784,13 @@
    },
    {
     "tipo": "OBJ",
-    "desc": "Propuestas para la implantación de formación anual",
-    "peso": 10
+    "desc": "Oferta económica",
+    "peso": 80
    },
    {
     "tipo": "OBJ",
-    "desc": "Oferta económica",
-    "peso": 80
+    "desc": "Propuestas para la implantación de formación anual",
+    "peso": 10
    }
   ],
   "docs": [
@@ -86142,6 +86142,74 @@
    }
   ],
   "slug": "equipamiento-modular-para-estudio-a2-20426937"
+ },
+ "20426938": {
+  "id": "20426938",
+  "expediente": "SUM-26-0308-SIST",
+  "titulo": "Suministro de licencias de uso y soporte asociado de software de distintos fabricantes para umivale Activa",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kx5lp5oReL5eKgd8LfVV9g%3D%3D",
+  "actualizado": "2026-11-11T19:56:50.566+01:00",
+  "estado": "ADJ",
+  "cpvs": [
+   "48000000",
+   "",
+   "48000000",
+   "",
+   "48000000",
+   "",
+   "48000000",
+   ""
+  ],
+  "organo": "Gerencia umivale Activa, Mutua Colaboradora con la Seguridad Social número 3",
+  "ciudad": "Madrid",
+  "provincia": "Valencia/València",
+  "importe": 210000,
+  "valorEstimado": 210000,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-10-01",
+  "plazoHora": "14:00:00",
+  "duracion": "36 meses",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Importe",
+    "peso": 100
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Importe",
+    "peso": 100
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Importe",
+    "peso": 85
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Metodología y planificación de ejecución de la instalación",
+    "peso": 10
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Experiencia profesional del equipo asignado a la implantación de la solución",
+    "peso": 5
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "2540834-PliegodeClusulasAdmin-001001PCA_STD_CA.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=EFPm730F5kcBfGFfoMs6shVzF5ndg1ODln/ibqabUYwNhFjVBRYnTcn85FrFIruAmUKFkkHGFnEV2wc50ozMBQOtPu9Z5GywU/f8Q9Q1s65JOVDbGCDM%2BMigrvuVS7Rv"
+   },
+   {
+    "nombre": "2537768-PliegodePrescripcione-001001PPT_STD_CA.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MyA0dRlfiD8hCODS1EzEP2To5dIMzwx4xptAVuNg95kXqsSB2fOhv7pdfZNmV1lEFkHh/3yABNCjTz68Wpkgb5f55gL%2BoiMQUiKwbRsNjYBt/o8fNevwsujgRzaBbugn"
+   }
+  ],
+  "slug": "suministro-de-licencias-de-uso-y-soporte-asociado-de-software-de-disti-20426938"
  },
  "20426950": {
   "id": "20426950",
@@ -133265,8 +133333,8 @@
   "expediente": "2601CTRCO023",
   "titulo": "Servicio de revisión y actualización del inventario del Ministerio de Vivienda y Agenda Urbana",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ChNLHUD3eTaP66GS%2BONYvQ%3D%3D",
-  "actualizado": "2026-10-22T13:28:36.809+02:00",
-  "estado": "PUB",
+  "actualizado": "2026-11-11T16:44:53.023+01:00",
+  "estado": "EV",
   "cpvs": [
    "72313000",
    "",
@@ -150763,8 +150831,8 @@
   "expediente": "S-04628-2026",
   "titulo": "Booking asistencia técnica unilateral UNL MD5 Chequia-España",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YFJoyumWYrU%2B1TMyIiZmzw%3D%3D",
-  "actualizado": "2026-10-28T13:42:19.295+01:00",
-  "estado": "ADJ",
+  "actualizado": "2026-11-11T19:34:16.287+01:00",
+  "estado": "RES",
   "cpvs": [
    "64200000",
    ""
@@ -180583,5 +180651,550 @@
    }
   ],
   "slug": "prestacion-del-servicio-de-acceso-a-la-extranet-de-giss-y-a-la-de-las--20877588"
+ },
+ "20886757": {
+  "id": "20886757",
+  "expediente": "CBA4935/2026",
+  "titulo": "Suministro De 496 Monitores De Puesto De 24 Pulgadas Con Destino A Los Servicios Periféricos Del Ministerio De Política Territorial Y Memoria Democrática. (Ministerio De Política Territorial Y Memoria Democrática-Subdirección General De Administración Financiera Y Patrimonio De La Administración General Del Estado En El Territorio)",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=sSkZYw2xtCZ9Zh%2FyRJgM8w%3D%3D",
+  "actualizado": "2026-11-11T19:25:25.264+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "30213000",
+   "",
+   "30213000",
+   ""
+  ],
+  "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 59520,
+  "valorEstimado": 59520,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": "60 días",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Si existen criterios cuantificables automáticamente están definidos en el documento de licitación, junto a su peso",
+    "peso": 50
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Si existen criterios de juicios de valor están definidos en el documento de licitación, junto a su peso",
+    "peso": 50
+   }
+  ],
+  "docs": [],
+  "slug": "suministro-de-496-monitores-de-puesto-de-24-pulgadas-con-destino-a-los-20886757"
+ },
+ "20886766": {
+  "id": "20886766",
+  "expediente": "CBA5229/2026",
+  "titulo": "Adquisición De 65 Monitores Lote 9 Con 20 Webcams Y 20 Auriculares Con Cargo A Ieo-Csic Centro Oceanográfico De Málaga (Agencia Estatal Consejo Superior De Investigaciones Científicas)",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CrlSWW2XHs1Whbmkna2nXQ%3D%3D",
+  "actualizado": "2026-11-11T19:14:08.330+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "30231000",
+   "",
+   "30231000",
+   ""
+  ],
+  "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+  "ciudad": "Madrid",
+  "provincia": "Málaga",
+  "importe": 7320.5,
+  "valorEstimado": 7320.5,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": "30 días",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Según condiciones objetivas previstas en el pliego del acuerdo marco/sistema dinámico de adquisición",
+    "peso": 100
+   }
+  ],
+  "docs": [],
+  "slug": "adquisicion-de-65-monitores-lote-9-con-20-webcams-y-20-auriculares-con-20886766"
+ },
+ "20886771": {
+  "id": "20886771",
+  "expediente": "CBA5043/2026",
+  "titulo": "Suministro De 65 Unidades De Pc Superior Con Licencia De Windows 11 Pro Y Extensión De Garantía De 2 Años, Con Destino Al Hospital Universitario De Ceuta, Dirección Territorial De Ceuta, Centro Nacional De Dosimetría De Valencia Y Servicios Centrales (Instituto Nacional De Gestión Sanitaria-Dirección Del Instituto Nacional De Gestión Sanitaria)",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lDg%2F3d43xqw4NavIWzMcHA%3D%3D",
+  "actualizado": "2026-11-11T19:12:02.432+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "30213000",
+   "",
+   "30213000",
+   ""
+  ],
+  "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+  "ciudad": "Madrid",
+  "provincia": "Ceuta",
+  "importe": 35276.8,
+  "valorEstimado": 35276.8,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": "45 días",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Según condiciones objetivas previstas en el pliego del acuerdo marco/sistema dinámico de adquisición",
+    "peso": 100
+   }
+  ],
+  "docs": [],
+  "slug": "suministro-de-65-unidades-de-pc-superior-con-licencia-de-windows-11-pr-20886771"
+ },
+ "20886775": {
+  "id": "20886775",
+  "expediente": "CBA5123/2026",
+  "titulo": "Am 05/2023 Suministro De Impresoras, Equipos Multifuncionales Y Escáneres (Agencia Estatal Consejo Superior De Investigaciones Científicas)",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9Icn3br2yGtLAIVZdUs8KA%3D%3D",
+  "actualizado": "2026-11-11T19:10:17.839+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "30232110",
+   "",
+   "30232110",
+   ""
+  ],
+  "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 3535.07,
+  "valorEstimado": 3535.07,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": "48 meses",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Según condiciones objetivas previstas en el pliego del acuerdo marco/sistema dinámico de adquisición",
+    "peso": 100
+   }
+  ],
+  "docs": [],
+  "slug": "am-05-2023-suministro-de-impresoras-equipos-multifuncionales-y-escaner-20886775"
+ },
+ "20886781": {
+  "id": "20886781",
+  "expediente": "CBA5121/2026",
+  "titulo": "Suministro De Impresoras, Equipos Multifuncionales Y Escáneres Am 05/2023 Lote 4 (Agencia Estatal Consejo Superior De Investigaciones Científicas)",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=y0hSuZF%2B%2B8Il5NjlNci%2BtA%3D%3D",
+  "actualizado": "2026-11-11T18:58:30.637+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "30232110",
+   "",
+   "30232110",
+   ""
+  ],
+  "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 4561.47,
+  "valorEstimado": 4561.47,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": "48 meses",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Según condiciones objetivas previstas en el pliego del acuerdo marco/sistema dinámico de adquisición",
+    "peso": 100
+   }
+  ],
+  "docs": [],
+  "slug": "suministro-de-impresoras-equipos-multifuncionales-y-escaneres-am-05-20-20886781"
+ },
+ "20886785": {
+  "id": "20886785",
+  "expediente": "P.A.S 2/2026",
+  "titulo": "Suministro de 50 licencias Office 365 E3 EEE ( sin Teams) para REGTSA",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1Uejex%2BgT1fua%2Fi14w%2FPLA%3D%3D",
+  "actualizado": "2026-11-11T18:52:13.658+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "48900000",
+   ""
+  ],
+  "organo": "Vicepresidencia del Organismo Autónomo de Recaudación y Gestión Tributaria de la Diputación de Salamanca",
+  "ciudad": "Salamanca",
+  "provincia": null,
+  "importe": 22620,
+  "valorEstimado": 22620,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto simplificado",
+  "plazoFecha": "2026-11-25",
+  "plazoHora": "14:00:00",
+  "duracion": "24 meses",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Precio",
+    "peso": 100
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "Pcap.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=heOAuvT0FNCD3AJh4lCVo7AWMgFpnEJqNHgSsv23aEKGdCVAU6xtsqpcE9CGvRqEuf1d5iPGTqlSnpXS/5m/wIyAgJPO31Rj2kzq7zMkCKBt/o8fNevwsujgRzaBbugn"
+   },
+   {
+    "nombre": "Ppt.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BbHE/SCFrtf1swQWBPYw60hFEgmFAWp0eztg/eotoA1EDBRKIbJHRU0s%2B1kDNQwpXAS/49bEL0b5upi%2BZC10K60hJ3NrcjJd945rpc/vXuWCx2e6p7hqtlp2aFupgHMr"
+   }
+  ],
+  "slug": "suministro-de-50-licencias-office-365-e3-eee-sin-teams-para-regtsa-20886785"
+ },
+ "20886788": {
+  "id": "20886788",
+  "expediente": "CBA5222/2026",
+  "titulo": "Suministro De 10 Pantallas De 24 Pulgadas Mediante Contratación Centralizada (Ministerio Para La Transición Ecológica Y El Reto Demográfico-Confederación Hidrográfica Del Miño-Sil)",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HVGgjNlCo15SYrkJkLlFdw%3D%3D",
+  "actualizado": "2026-11-11T18:50:31.951+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "30231000",
+   "",
+   "30231000",
+   ""
+  ],
+  "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+  "ciudad": "Madrid",
+  "provincia": "Ourense",
+  "importe": 799,
+  "valorEstimado": 799,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": "1 meses",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Según condiciones objetivas previstas en el pliego del acuerdo marco/sistema dinámico de adquisición",
+    "peso": 100
+   }
+  ],
+  "docs": [],
+  "slug": "suministro-de-10-pantallas-de-24-pulgadas-mediante-contratacion-centra-20886788"
+ },
+ "20886791": {
+  "id": "20886791",
+  "expediente": "CON-SERV-2026000082",
+  "titulo": "Servicios de asistencia técnica especializada para la implantación del Proyecto denominado Observatorio de Sostenibilidad Urbana, dentro del Plan de Actuación Integrado (PAI) 'Cáceres, la ciudad que queremos', cofinanciado por la Unión Europea a través del FEDER, dentro del programa plurirregional de España 2021-2027.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1mZmdl5BVRC5HQrHoP3G5A%3D%3D",
+  "actualizado": "2026-11-11T18:43:44.594+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "72220000",
+   "",
+   "72316000",
+   "",
+   "72246000",
+   "",
+   "71356300",
+   ""
+  ],
+  "organo": "Alcaldía del Ayuntamiento de Cáceres",
+  "ciudad": "Cáceres",
+  "provincia": "Cáceres",
+  "importe": 115289.26,
+  "valorEstimado": 115289.26,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-11-26",
+  "plazoHora": "14:00:00",
+  "duracion": "3 años",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "Financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Ampliación del equipo técnico adscrito al contrato",
+    "peso": 10
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "OFERTA ECONOMICA",
+    "peso": 49
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Inventario de activos municipales vinculados al Observatorio de Sostenibilidad Urbana",
+    "peso": 15
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Experiencia adicional del equipo adscrito en proyectos de sensorización urbana e IoT",
+    "peso": 26
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "PCAP.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AMKLiZ2me1%2BPAuSLKTvtFuoXBuEfbXFRbG5BoxYGMfJuVpJEZOhyUB3t%2BZq/NQFzJygNBr6ZSV4RUfcHfyp8WNJTJp8TOQk2UO9GiR5WQmo//q7NB2iMZvNyf0xrJmjt"
+   },
+   {
+    "nombre": "Pliego_de_prescripciones_tecnicas__definitivo_.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=EL2riNCLKqI7nDpa5ier1cTdwwNosZl9/4SEbGnWwQnAoQYYqc8vilJjaDNY4oDYWKCFTCHIxLtwNJCU2cL76fadrZ5Tzeq3e8GGrSo608gC1/zDIE0Kw/PWNnLS0Z0z"
+   }
+  ],
+  "slug": "servicios-de-asistencia-tecnica-especializada-para-la-implantacion-del-20886791"
+ },
+ "20886792": {
+  "id": "20886792",
+  "expediente": "CBA5277/2026",
+  "titulo": "Adquisición De Dos Monitores 08.00.00 Monitores De 23,6 Pulgadas (Universidad Nacional De Educación A Distancia-Consorcio Universitario Del Centro Asociado A La Uned En La Rioja)",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CuYjXZ2WFzSExvMJXBMHHQ%3D%3D",
+  "actualizado": "2026-11-11T18:43:23.534+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "30231000",
+   "",
+   "30231000",
+   ""
+  ],
+  "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+  "ciudad": "Madrid",
+  "provincia": "Rioja, La",
+  "importe": 154.8,
+  "valorEstimado": 154.8,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": "30 días",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Según condiciones objetivas previstas en el pliego del acuerdo marco/sistema dinámico de adquisición",
+    "peso": 100
+   }
+  ],
+  "docs": [],
+  "slug": "adquisicion-de-dos-monitores-08-00-00-monitores-de-23-6-pulgadas-unive-20886792"
+ },
+ "20886793": {
+  "id": "20886793",
+  "expediente": "2458/2026",
+  "titulo": "Adquisición de la licencia FortiGuard Unified Thread Protection (UTP) para el cortafuegos FortiGate 90G para 3 años.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=21RM2mpEhh8mMOlAXxDEjw%3D%3D",
+  "actualizado": "2026-11-11T18:36:38.700+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "48732000",
+   ""
+  ],
+  "organo": "Alcaldía del Ayuntamiento de San Miguel de Salinas",
+  "ciudad": "San Miguel de Salinas",
+  "provincia": "Alicante/Alacant",
+  "importe": 5400,
+  "valorEstimado": 5400,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto simplificado",
+  "plazoFecha": "2026-11-25",
+  "plazoHora": "23:59:00",
+  "duracion": "36 meses",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Soporte",
+    "peso": 10
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Precio",
+    "peso": 90
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "Pcap 2458 2026.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=RdbgtodGoIiIFq5Lc8%2BjE2V0/HNLy9JlZw1jWDLwgsdwDe6DQzjYn9SNQxTkKoCqzDIp5Par/u7zUsNBGiofCFmrxpl%2Brehv11MOh5Hb730//q7NB2iMZvNyf0xrJmjt"
+   },
+   {
+    "nombre": "ppt 2458 2026.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nQfL3RlXbfBUX1ugD6fV44uW1faUx86M3JG30/obVG/znY0W%2BowlhnTPwCh54RmIlRWXSCTDOPm2HxGmzJBkUCXNQ9V5HNjKz8FQ8xwzrZqHAj0WEJrB5sP7amrh2jBD"
+   }
+  ],
+  "slug": "adquisicion-de-la-licencia-fortiguard-unified-thread-protection-utp-pa-20886793"
+ },
+ "20886795": {
+  "id": "20886795",
+  "expediente": "7494/2026",
+  "titulo": "Servicios de Tecnologías de la Información en la Nube (Cloud Privada)",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uRkw74dxE%2B1Vq4S9zvaQpQ%3D%3D",
+  "actualizado": "2026-11-11T18:25:38.275+01:00",
+  "estado": "EV",
+  "cpvs": [
+   "72222300",
+   "",
+   "72500000",
+   ""
+  ],
+  "organo": "Junta de Gobierno del Ayuntamiento de Lepe",
+  "ciudad": "Lepe",
+  "provincia": "Huelva",
+  "importe": 263952,
+  "valorEstimado": 263952,
+  "tipo": "Servicios",
+  "procedimiento": "Negociado con publicidad",
+  "plazoFecha": "2026-11-16",
+  "plazoHora": "23:59:00",
+  "duracion": "2 años",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Oferta Económica",
+    "peso": 100
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "09_Pliego Clausulas Administrativas Particul.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qTcZQRse66VICs8sQxxvSHUngiASEF1JscDQ3K%2BlpD%2Bc5i863OnizF6SR3q8eH1fHAkF52JIihNJcNbVtSNwuG%2BAIT2CcFgP9bN4IFA/sC33GVhXrFFqN7yFncy7YfRK"
+   },
+   {
+    "nombre": "06_Pliego Prescripciones Tecnicas Servici.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=JnMWEv0fez1euMHiDgpyTOLlrjB3uWG/h2iZGApcE3r7epW0jRwf73JwU%2BCHxSaGEihDJAALjNuasWJ6XOJ7s86M4S0ZQfr7FEqORz5HgfIZyAJWGsSt0OzTSTyw9JAs"
+   }
+  ],
+  "slug": "servicios-de-tecnologias-de-la-informacion-en-la-nube-cloud-privada-20886795"
+ },
+ "20886802": {
+  "id": "20886802",
+  "expediente": "A40-1126",
+  "titulo": "Contratación de un Centro de Operaciones de Seguridad (SOC) gestionado 24x7x365",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=80yOz6jG%2BMcIYE3ZiZ%2BxmQ%3D%3D",
+  "actualizado": "2026-11-11T17:48:36.293+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "72200000",
+   "",
+   "72500000",
+   "",
+   "48000000",
+   "",
+   "48151000",
+   ""
+  ],
+  "organo": "Jefatura de Unidad de Medios Internos -Área de Compras de la Compañía Española de Seguros de Crédito a la Exportación S.A., S.M.E. (CESCE)",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 450000,
+  "valorEstimado": 540000,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-11-27",
+  "plazoHora": "14:00:00",
+  "duracion": "3 años",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Propuesta económica",
+    "peso": 60
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "Oferta técnica",
+    "peso": 40
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "Pliego Administrativo SOC.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xdDC9/MoVICEEdCuhYl3oABkJfu8tBarr/hyVEGhuZIU8FdkZj/abWgBX7M0CXicFoWTksClYTEJCaaeXmOxlI/i0R%2B9nDbjr2K9m9A8WwS1aXEvq3KHa/AEHgtDrQw0"
+   },
+   {
+    "nombre": "Pliego tecnico SOC.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ya6B%2BEL7pV4MpNcyaU0AFoyHjUEo/3QpHzvLtZ/b6%2BXlT07OiI8hpRn1gJhuH14MDSgmPaIqrw9lnNkWpbF5tXBbHuFKZr/JeMUEUacJiyffdyQgZAdTm3EfcUAC7CJ6"
+   },
+   {
+    "nombre": "Anexos editables.zip",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2BxOhDOJnI77gWGEj1bfZcZ4axg3Asao4hG0qBhnTMOmLy0py55q78TicnOcfS8MjUdjfSPbTMrabpZVvKlBm1z1lOL8HfJh7VkabPflgPNzVTD3T98KC0nSgQFM0q%2B5s"
+   }
+  ],
+  "slug": "contratacion-de-un-centro-de-operaciones-de-seguridad-soc-gestionado-2-20886802"
+ },
+ "20886809": {
+  "id": "20886809",
+  "expediente": "77/2026",
+  "titulo": "Servicio de mantenimiento del sistema informático Universitas XXI Académico",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=55jmJ8ecdLX%2B3JAijKO%2Bkg%3D%3D",
+  "actualizado": "2026-11-11T17:17:51.164+01:00",
+  "estado": "ADJ",
+  "cpvs": [
+   "72267000",
+   ""
+  ],
+  "organo": "Rectorado de la Universidad Internacional Menéndez Pelayo",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 289849.22,
+  "valorEstimado": 579698.44,
+  "tipo": "Servicios",
+  "procedimiento": "Negociado con publicidad",
+  "plazoFecha": "2026-10-16",
+  "plazoHora": "10:00:00",
+  "duracion": "1 años",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Oferta económica",
+    "peso": 100
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "PCAP UNIVERSITAS XXI v4 2026.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=u37orMUUh8kjNtz06EvxCWeQCJ47/hji53rQCa5eSzQ/9AO6cX9k2R1WtkdlbTpYww8A7C2xumz/iVn/Wge8Hr8CiqKnTKVyFV97tecXyrh7QB3HKyQaFUExmUVQCerk"
+   },
+   {
+    "nombre": "PPT UNIVERSITAS XXI v4 2026.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YDz7PhOijrSV0f7C7pE8fbccIkWkY3nh1MNiKnAbBYHbxiY%2BwO1p72i9gq1ZzNOyM1sVaHixSCugFvqh%2B9E1FlclVqzNhtPlTh66UrQyuW8ZyAJWGsSt0OzTSTyw9JAs"
+   }
+  ],
+  "slug": "servicio-de-mantenimiento-del-sistema-informatico-universitas-xxi-acad-20886809"
  }
 }
