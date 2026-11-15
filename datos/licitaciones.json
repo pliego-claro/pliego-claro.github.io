@@ -76707,6 +76707,65 @@
   ],
   "slug": "suministro-e-instalacion-de-la-infraestructura-de-red-del-centro-de-es-20287565"
  },
+ "20287627": {
+  "id": "20287627",
+  "expediente": "2026-01148",
+  "titulo": "Contratación del servicio gestionado integral de comunicaciones corporativas fijas y móviles para Ingeniería de Sistemas para la Defensa de España, S.A., S.M.E, M.P",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9iRf1L8ebq8aF6cS8TCh%2FA%3D%3D",
+  "actualizado": "2026-11-14T15:42:24.199+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "64200000",
+   "",
+   "64212000",
+   "",
+   "64210000",
+   ""
+  ],
+  "organo": "Consejero Delegado de Ingeniería de Sistemas para la Defensa de España S.A., S.M.E. y M.P.",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 455200,
+  "valorEstimado": 1365600,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto",
+  "plazoFecha": "2026-09-14",
+  "plazoHora": "14:00:00",
+  "duracion": "36 meses",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Criterios Automáticos Distintos del Precio",
+    "peso": 25
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Criterios Económicos",
+    "peso": 75
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "2026-01148_PCAP_signed.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=43uicL5ER3ZiXZiTUJscLgTfeYDxzl4zj6o1xceUH7DTHPMLrDXHuuuxe2yOjJICKSIlpJMJ8EyPN8b6hyz0vRwVBbJbKdtCMQkQ4rilm2iCx2e6p7hqtlp2aFupgHMr"
+   },
+   {
+    "nombre": "2026-01148_PPT_signed.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LGpBWBn3QPPOlHR7nQd2kJBgK9xg5ouk12Yh5Sv8U8z9MbFWuL2MaGB5wfwf/crqtgehrPYD37NdxE8QGYiCoi48wmCPcCk/O6aoVF1dZxJ7QB3HKyQaFUExmUVQCerk"
+   },
+   {
+    "nombre": "Deuc2026-01148.zip",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2BowZbubt/aNus9rWr5l3wecPrO0E/DHDopn/THjRl47%2Bi2LIE7Nl1imvQQMkZj3Z9cM2zLr65PtgtNB6tlo9%2BPRw0tE2bXaHNqQOil7ctSz6CYyL7SIrUOBFfNf52ZqA"
+   },
+   {
+    "nombre": "NotaAclaratoriaPreguntasPlanteadas.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lZghS5N9DGuPTFHZKexoOG/W%2ByCpCYMUvgkjXYNt46Va/gwSkF9f7bmLGo1Zw9cV7tGXPjqHJKdCFsILeVkIqSag1S25JFVTTBD2J6Dlve2HAj0WEJrB5sP7amrh2jBD"
+   }
+  ],
+  "slug": "contratacion-del-servicio-gestionado-integral-de-comunicaciones-corpor-20287627"
+ },
  "20287641": {
   "id": "20287641",
   "expediente": "2026-01084",
@@ -124764,16 +124823,16 @@
   "expediente": "35032/2026",
   "titulo": "Contrato administrativo de suministro que tiene por objeto la contratación de una solución integral de gestión económico-financiera y patrimonial municipal para el Ayuntamiento de Adeje",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hvIvjDAJKyUXhk1FZxEyvw%3D%3D",
-  "actualizado": "2026-11-12T14:00:46.645+01:00",
-  "estado": "PUB",
+  "actualizado": "2026-11-14T15:42:30.340+01:00",
+  "estado": "EV",
   "cpvs": [
    "48440000",
    "",
-   "72263000",
+   "48442000",
    "",
    "72261000",
    "",
-   "48442000",
+   "72263000",
    ""
   ],
   "organo": "Concejalía Delegada de Hacienda de Adeje",
@@ -124791,13 +124850,13 @@
   "criterios": [
    {
     "tipo": "OBJ",
-    "desc": "Ampliación de la bolsa de horas de consultoría especializada",
+    "desc": "Canal telefónico directo con experto/a en contabilidad pública de entidades locales",
     "peso": 10
    },
    {
-    "tipo": "SUBJ",
-    "desc": "Memoria técnica",
-    "peso": 45
+    "tipo": "OBJ",
+    "desc": "Ampliación de la bolsa de horas de consultoría especializada",
+    "peso": 10
    },
    {
     "tipo": "OBJ",
@@ -124805,9 +124864,9 @@
     "peso": 35
    },
    {
-    "tipo": "OBJ",
-    "desc": "Canal telefónico directo con experto/a en contabilidad pública de entidades locales",
-    "peso": 10
+    "tipo": "SUBJ",
+    "desc": "Memoria técnica",
+    "peso": 45
    }
   ],
   "docs": [
@@ -198261,6 +198320,96 @@
   ],
   "docs": [],
   "slug": "adquisicion-de-servidores-para-virtualizacion-destinados-al-centro-de--20897390"
+ },
+ "20904434": {
+  "id": "20904434",
+  "expediente": "CS/99/1126067079/26/PNSP",
+  "titulo": "Suministros licencias Oracle Weblogic para SES",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FaGouE77vI75Rey58Yagpg%3D%3D",
+  "actualizado": "2026-11-14T18:11:41.309+01:00",
+  "estado": "ADJ",
+  "cpvs": [
+   "48000000",
+   "",
+   "48000000",
+   ""
+  ],
+  "organo": "Dirección General de Planificación Económica",
+  "ciudad": "Mérida",
+  "provincia": "Badajoz",
+  "importe": 383455.18,
+  "valorEstimado": 383455.18,
+  "tipo": "Suministros",
+  "procedimiento": "Restringido",
+  "plazoFecha": "2026-11-09",
+  "plazoHora": "23:59:00",
+  "duracion": "15 días",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Precio Formula",
+    "peso": 100
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "DI SDA ORACLE EBLOGIC F.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=raMLookpMJn/u1osoJqcmUf21ZboTcCWbWozemK9EVQ7Gdw8WM9d1CglM/BZG9PT3JrOEtKydzYQAa81QzrlclbEP0fHvq82oA/8XLuKP4HDdQD9RyhUmzT4jZ2In4zL"
+   },
+   {
+    "nombre": "PPT.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TtQgQ3TuxHLvYrRpElkSPHaLEhL7V2N3VxIoi4wkFoMLtofEEGiwDYCxTWdVu2O//FNVio8zhTErdnLZTQVapN63cednjeN51/sDCrk0l5wC1/zDIE0Kw/PWNnLS0Z0z"
+   },
+   {
+    "nombre": "Modelo Oferta SDA 25 Lote 1.xlsx",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PFxFI3J4Bo8lv2rybxIJIfA/Vu0jN7TbMfK06xmx8CPQQ3RdFzqfTk/2MQusKwszsgC5rNfhnwEPbfCuFBZH%2BkNVxOde2xh09fdBWDuXfhCB0nvVKRzfe4rpHcnlPhSZ"
+   }
+  ],
+  "slug": "suministros-licencias-oracle-weblogic-para-ses-20904434"
+ },
+ "20904447": {
+  "id": "20904447",
+  "expediente": "SER-04/26MB_P1/27MB",
+  "titulo": "Servicio de mantenimiento de los buzones automáticos de devolución y de autopréstamo de material bibliográfico de las bibliotecas de la Universidad Politécnica de Madrid.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=klxbavE5R89%2FR5QFTlaM4A%3D%3D",
+  "actualizado": "2026-11-14T09:49:27.222+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "72267100",
+   ""
+  ],
+  "organo": "Rectorado de la Universidad Politécnica de Madrid",
+  "ciudad": "Madrid",
+  "provincia": "Comunidad de Madrid",
+  "importe": 6156,
+  "valorEstimado": 12312,
+  "tipo": "Servicios",
+  "procedimiento": "Negociado con publicidad",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": "12 meses",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "PRECIO",
+    "peso": 100
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "PCAP.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CkuWkX0F54K1E/Rc0V1kiv2T2RArxd03Rb4WVwUEhFw2Pcd4XIwn9gVthlMFzcPFB5qPIFinR6e%2BcFSmpWxILh0vLJxQLnHaxtm8nghRHsr6CYyL7SIrUOBFfNf52ZqA"
+   },
+   {
+    "nombre": "PPT.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UOzM1/JCF/9fwq3I60NDEUw0EZnWaYtOuXkTGmD4WpjQt25tUgq/ZL1L4EbaSfDsH/HjwiEkHxlbf4uipqppWdVIQFyq9CeeX/y1T%2Bxof1LfdyQgZAdTm3EfcUAC7CJ6"
+   }
+  ],
+  "slug": "servicio-de-mantenimiento-de-los-buzones-automaticos-de-devolucion-y-d-20904447"
  },
  "20905901": {
   "id": "20905901",
