@@ -129950,6 +129950,48 @@
   ],
   "slug": "contrato-del-servicio-de-telecomunicaciones-a-la-comarca-de-los-monegr-20658847"
  },
+ "20658925": {
+  "id": "20658925",
+  "expediente": "65/2026",
+  "titulo": "Servicio de suscripción a distintos agentes de inteligencia artificial.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=sKQH%2B7D6oYfECtSnloz%2BZQ%3D%3D",
+  "actualizado": "2026-11-17T18:34:21.765+01:00",
+  "estado": "EV",
+  "cpvs": [
+   "72212900",
+   ""
+  ],
+  "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
+  "ciudad": "Sevilla",
+  "provincia": "Sevilla",
+  "importe": 4392,
+  "valorEstimado": 8784,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto simplificado",
+  "plazoFecha": "2026-10-22",
+  "plazoHora": "11:00:00",
+  "duracion": "1 años",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "1. OFERTA ECONÓMICA",
+    "peso": 100
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "65-26 PLIEGO CLAUSULAS ADMINISTRATIVAS PARTICULARES 11-09-26.PDF",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bLPV4Unj2bx1uUByrXlat7SWoZMlHr0hkfgXVKgaeo1vxbYfvTjdWhKYUUYCzn4WnfO7BvAyJcTj8mNZVY25hB5w/zL22NthKJV1HRRECDWB0nvVKRzfe4rpHcnlPhSZ"
+   },
+   {
+    "nombre": "65-26 PLIEGO PRESCRIPCIONES TECNICAS 23-06-26.PDF",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zY5zqhFKL1qdIUmHO6qDvqLCLRSbQ69o6F0rogHnF2slIpXyES7JeeeY7VXXvQ%2Bpnl3ZYfnFLd6wiKquWggpDVhHZ//856WLn21qsIjaESE//q7NB2iMZvNyf0xrJmjt"
+   }
+  ],
+  "slug": "servicio-de-suscripcion-a-distintos-agentes-de-inteligencia-artificial-20658925"
+ },
  "20658936": {
   "id": "20658936",
   "expediente": "20260901-00308",
@@ -204836,5 +204878,152 @@
   ],
   "docs": [],
   "slug": "renovacion-del-suministro-de-la-plataforma-teradata-del-datawarehouse--20914037"
+ },
+ "20934280": {
+  "id": "20934280",
+  "expediente": "CBA5129/2026",
+  "titulo": "Suministro De Ordenadores Ultraligeros Estándar Para Puestos De Trabajo Del Intef (Ministerio De Educación, Formación Profesional Y Deportes-Instituto Nacional De Tecnologias Educativas Y De Formacion Del Profesorado)",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iGk0lgAxg8NJ8Trn0ZPzLw%3D%3D",
+  "actualizado": "2026-11-17T20:16:01.467+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "30213000",
+   "",
+   "30213000",
+   ""
+  ],
+  "organo": "Dirección General de Racionalización y Centralización de la Contratación-Junta de Contratación Centralizada",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "importe": 23865,
+  "valorEstimado": 23865,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": "26 días",
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Según condiciones objetivas previstas en el pliego del acuerdo marco/sistema dinámico de adquisición",
+    "peso": 100
+   }
+  ],
+  "docs": [],
+  "slug": "suministro-de-ordenadores-ultraligeros-estandar-para-puestos-de-trabaj-20934280"
+ },
+ "20934288": {
+  "id": "20934288",
+  "expediente": "TVPC_15SU_26",
+  "titulo": "Suministro de equipamiento informatico y discos de almacenamiento para archivo de Televisión Publica de Canarias, S.A.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rjVSV6xPWLJt5r0ngvMetA%3D%3D",
+  "actualizado": "2026-11-17T20:06:03.829+01:00",
+  "estado": "PUB",
+  "cpvs": [
+   "30200000",
+   "",
+   "30213000",
+   "",
+   "30213300",
+   "",
+   "30200000",
+   "",
+   "30213300",
+   "",
+   "30213000",
+   "",
+   "30200000",
+   "",
+   "30213300",
+   "",
+   "30213000",
+   "",
+   "30200000",
+   "",
+   "30213000",
+   "",
+   "30213300",
+   "",
+   "30200000",
+   "",
+   "30213300",
+   "",
+   "30213000",
+   ""
+  ],
+  "organo": "Televisión Pública de Canarias, S.A.",
+  "ciudad": "Santa Cruz de Tenerife",
+  "provincia": "Canarias",
+  "importe": 113600,
+  "valorEstimado": 113600,
+  "tipo": "Suministros",
+  "procedimiento": "Abierto simplificado",
+  "plazoFecha": "2026-12-02",
+  "plazoHora": "23:59:00",
+  "duracion": "60 días",
+  "garantiaDefinitiva": "5",
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [
+   {
+    "tipo": "OBJ",
+    "desc": "Disponer de certificación ISO 14001 o equivalente (EMAS) en vigor",
+    "peso": 5
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Reducción del tiempo de entrega del material (máximo establecido en el PPT para ambos lotes 60 días naturales",
+    "peso": 10
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Oferta económica",
+    "peso": 75
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "Ampliación del plazo de garantía solicitado en PPT (3 años de garantía)",
+    "peso": 10
+   }
+  ],
+  "docs": [
+   {
+    "nombre": "9 TVPC_15SU_26 PCAP EQUIPAMIENTO INFORMATICO Revisado Juridico.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wpLsuPhvZIaEgF0Oj4DPkrtnn0wjmr52nNLTyUZAsEE3wnk9FR2Cm4sqKHid3eLEO95GFOQii2R0WhOpb0uAPBNEgJYsiOHBM7J0qECIYyg//q7NB2iMZvNyf0xrJmjt"
+   },
+   {
+    "nombre": "8 TVPC_15SU_26 PPT EQUIPAMIENTO INFORMATICO CON ANEXOS.pdf",
+    "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=gY/GwOFQkEdS/TBZkiqsE24Gt12KDszHI8OY/T//clYSXWZhmLYGzbuEfcqbwEpa2XoUwTN1C8Zw2r2nnMjNGM7IQMEp542AdzBLAeYW9DD6CYyL7SIrUOBFfNf52ZqA"
+   }
+  ],
+  "slug": "suministro-de-equipamiento-informatico-y-discos-de-almacenamiento-para-20934288"
+ },
+ "20934303": {
+  "id": "20934303",
+  "expediente": "2026/AR46U/00002014E",
+  "titulo": "Expediente 2026/AR46U/00002014E Tercer CB AM 2024/AR46U/00000412E Servicio de mantenimiento de fotocopiadoras de las Unidades de la Flota y Base Naval de Rota.",
+  "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vHqpMMaRksUkJPJS%2BPS9vg%3D%3D",
+  "actualizado": "2026-11-17T18:35:07.221+01:00",
+  "estado": "RES",
+  "cpvs": [
+   "50313200",
+   ""
+  ],
+  "organo": "Intendente de Rota",
+  "ciudad": "Rota (Cádiz)",
+  "provincia": "Cádiz",
+  "importe": 49586.78,
+  "valorEstimado": 49586.78,
+  "tipo": "Servicios",
+  "procedimiento": "Abierto",
+  "plazoFecha": null,
+  "plazoHora": null,
+  "duracion": null,
+  "garantiaDefinitiva": null,
+  "fondosUE": "No hay financiación con fondos de la UE",
+  "criterios": [],
+  "docs": [],
+  "slug": "expediente-2026-ar46u-00002014e-tercer-cb-am-2024-ar46u-00000412e-serv-20934303"
  }
 }
