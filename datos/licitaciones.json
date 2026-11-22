@@ -46212,8 +46212,8 @@
   "expediente": "2026-SES-041",
   "titulo": "Servicio de creación y operación de una oficina de gobierno del dato para Mutua Balear",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=w%2BKJ0EqSer7E6P%2FuLemXRw%3D%3D",
-  "actualizado": "2026-10-26T10:48:51.735+01:00",
-  "estado": "ADJ",
+  "actualizado": "2026-11-21T17:41:45.216+01:00",
+  "estado": "RES",
   "cpvs": [
    "72600000",
    ""
@@ -46233,13 +46233,8 @@
   "criterios": [
    {
     "tipo": "OBJ",
-    "desc": "Oferta Económica",
-    "peso": 40
-   },
-   {
-    "tipo": "SUBJ",
-    "desc": "Propuesta técnica y metodologíca",
-    "peso": 25
+    "desc": "Adecuación del equipo de trabajo",
+    "peso": 10
    },
    {
     "tipo": "SUBJ",
@@ -46247,14 +46242,19 @@
     "peso": 15
    },
    {
+    "tipo": "OBJ",
+    "desc": "Oferta Económica",
+    "peso": 40
+   },
+   {
     "tipo": "SUBJ",
     "desc": "Plan de trabajo y planificación",
     "peso": 10
    },
    {
-    "tipo": "OBJ",
-    "desc": "Adecuación del equipo de trabajo",
-    "peso": 10
+    "tipo": "SUBJ",
+    "desc": "Propuesta técnica y metodologíca",
+    "peso": 25
    }
   ],
   "docs": [
@@ -123395,8 +123395,8 @@
   "expediente": "SER/2026/0000145362",
   "titulo": "un servicio consistente en el el desarrollo de un chatbot para la futura plataforma inteligente de apoyo, formacion y orientacioncontra la violencia de genero de la Viceconsejeria de Justicia y Seguridad",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=HwVwWi7Qwge7JOCXkOhcDg%3D%3D",
-  "actualizado": "2026-11-04T13:59:38.021+01:00",
-  "estado": "ADJ",
+  "actualizado": "2026-11-21T07:32:44.654+01:00",
+  "estado": "RES",
   "cpvs": [
    "72200000",
    ""
@@ -123416,13 +123416,13 @@
   "criterios": [
    {
     "tipo": "OBJ",
-    "desc": "Compromiso de presencialidad",
-    "peso": 5
+    "desc": "Certificaciones con proveedores de nube la empresa",
+    "peso": 10
    },
    {
     "tipo": "OBJ",
-    "desc": "Esquema Nacional de Seguridad",
-    "peso": 10
+    "desc": "Compromiso de presencialidad",
+    "peso": 5
    },
    {
     "tipo": "OBJ",
@@ -123431,7 +123431,7 @@
    },
    {
     "tipo": "OBJ",
-    "desc": "Certificaciones con proveedores de nube la empresa",
+    "desc": "Esquema Nacional de Seguridad",
     "peso": 10
    }
   ],
@@ -177928,8 +177928,8 @@
   "expediente": "E/054/26",
   "titulo": "Servicios de soporte a usuarios, mantenimiento y transferencia tecnológica del entorno digital \"SIMPLE\"",
   "enlace": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=X8aZPizxQosQyBAnWzHfCg%3D%3D",
-  "actualizado": "2026-10-26T21:46:01.083+01:00",
-  "estado": "ADJ",
+  "actualizado": "2026-11-21T15:08:46.101+01:00",
+  "estado": "RES",
   "cpvs": [
    "72250000",
    "",
@@ -177955,23 +177955,13 @@
   "criterios": [
    {
     "tipo": "SUBJ",
-    "desc": "1 Plazos y metodología para la incorporación de nuevas funcionalidades",
-    "peso": 20
+    "desc": "5 Presupuesto total y desglosado de los desarrollos evolutivos",
+    "peso": 9
    },
    {
     "tipo": "SUBJ",
-    "desc": "10 Mejoras en duración del servicio de soporte",
-    "peso": 1
-   },
-   {
-    "tipo": "SUBJ",
-    "desc": "3 Plan de migración y plazos para transferencia tecnológica al MITMS",
-    "peso": 15
-   },
-   {
-    "tipo": "OBJ",
-    "desc": "4 Precio Final",
-    "peso": 14
+    "desc": "8 Presupuesto para la transferencia tecnológica al MITMS",
+    "peso": 6
    },
    {
     "tipo": "SUBJ",
@@ -177985,13 +177975,18 @@
    },
    {
     "tipo": "SUBJ",
-    "desc": "9 Mejoras en equipo humano adscrito",
-    "peso": 2
+    "desc": "10 Mejoras en duración del servicio de soporte",
+    "peso": 1
+   },
+   {
+    "tipo": "OBJ",
+    "desc": "4 Precio Final",
+    "peso": 14
    },
    {
     "tipo": "SUBJ",
-    "desc": "8 Presupuesto para la transferencia tecnológica al MITMS",
-    "peso": 6
+    "desc": "9 Mejoras en equipo humano adscrito",
+    "peso": 2
    },
    {
     "tipo": "SUBJ",
@@ -178000,8 +177995,13 @@
    },
    {
     "tipo": "SUBJ",
-    "desc": "5 Presupuesto total y desglosado de los desarrollos evolutivos",
-    "peso": 9
+    "desc": "3 Plan de migración y plazos para transferencia tecnológica al MITMS",
+    "peso": 15
+   },
+   {
+    "tipo": "SUBJ",
+    "desc": "1 Plazos y metodología para la incorporación de nuevas funcionalidades",
+    "peso": 20
    }
   ],
   "docs": [
